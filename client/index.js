@@ -3,6 +3,8 @@ window.onload = function () {
     const tabNavColors = document.querySelectorAll('.tab-color');
     const tabContentColors = document.querySelectorAll('.color');
 
+    sendAjax("ajax_test", "all");
+
     top_logo_img.addEventListener("mouseover", function (event) {
         event.target.src = "/img/home_icon_hover.png";
 
@@ -22,34 +24,52 @@ window.onload = function () {
             if (document.querySelector("#tab-content #" + id_color)) {
                 document.querySelector("#tab-content #" + id_color).style.display = "block";
             }
-        })
-    })
+        });
+    });
 
     function sendAjax(url, data) {
-        let sendData = {color: data};
+        let sendData = { color: data };
         sendData = JSON.stringify(sendData);
-        
+
         var xhr = new XMLHttpRequest();
         xhr.open('POST', url);
         xhr.setRequestHeader('Content-Type', "application/json");
         xhr.send(sendData);
 
-        xhr.addEventListener('load', function() {
+        xhr.addEventListener('load', function () {
             let result = JSON.parse(xhr.responseText);
-            
-            console.log(result);
+            let tabColorElement = null;
+
+            if (result.isaac_item.length == 0) {
+                return;
+            }
+
+            tabColorElement = document.querySelector("#tab-content #" + result.color);
+
+            while (tabColorElement.hasChildNodes()) {
+                tabColorElement.removeChild(tabColorElement.firstChild);
+            }
+
+            for (key in result.isaac_item.data) {
+                let createImg = document.createElement('img');
+
+                createImg.setAttribute("src", result.isaac_item.data[key].img);
+                createImg.setAttribute("class", "item-img");
+                tabColorElement.appendChild(createImg);
+                console.log("break");
+            }
         });
     }
 }
 
 function TabColor(colorName) {
-    var x = document.querySelectorAll(".color");
+    let tabColorElements = document.querySelectorAll(".color");
 
     for (let i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
+        tabColorElements[i].style.display = "none";
     }
 
-    if(document.querySelector("#tab-content #" + colorName)) {
+    if (document.querySelector("#tab-content #" + colorName)) {
         document.querySelector("#tab-content #" + colorName).style.display = "block";
     }
 
