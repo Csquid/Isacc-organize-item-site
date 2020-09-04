@@ -9,7 +9,7 @@ class Server {
         this.app        = this.express();
         this.app.set   ('view engine', 'ejs');
         this.app.engine('html', require('ejs').renderFile);
-        this.app.use(this.express.static('client'));
+        // this.app.use('/static', this.express.static(__dirname + '/public'));
         this.app.use(this.bodyParser.json());
         this.app.use(this.bodyParser.urlencoded());
         this.app.use(this.session({

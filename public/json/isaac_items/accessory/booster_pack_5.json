@@ -1,0 +1,39 @@
+{
+    "126": {
+        "color": "",
+        "name": "Rotten Penny(썩은 동전)",
+        "id": "126",
+        "unlock": [
+            "푸른색 아군 파리를 한게임에 20마리 이상 소유"
+        ],
+        "description": [
+            "동전을 획득할 때 마다 아군 파리를 1마리씩 생성한다"
+        ],
+        "version": 9
+    },
+    "127": {
+        "color": "",
+        "name": "Baby-Bender",
+        "id": "127",
+        "unlock": [
+            "유도 효과 2회 중첩[37]"
+        ],
+        "description": [
+            "패밀리어들에게 유도 눈물 효과를 부여한다",
+            "당연히 Lilith가 기본으로 소유하는 인큐버스에도 적용된다"
+        ],
+        "version": 9
+    },
+    "128": {
+        "color": "",
+        "name": "Finger Bone",
+        "id": "128",
+        "unlock": [
+            "The Forgotten 캐릭터로 Greed Mode의 최종 보스 Ultra Greed 클리어"
+        ],
+        "description": [
+            "대미지를 입을 때 2% 확률로 뼈 하트가 주변에 드랍된다"
+        ],
+        "version": 9
+    }
+}
