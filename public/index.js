@@ -1,9 +1,11 @@
 window.onload = function () {
     const top_logo_img = document.querySelector('#top-logo-img');
     const tabNavColors = document.querySelectorAll('.tab-color');
-    let   tabContentColors = null;
     const item_container = document.querySelector('#item-container');
+    let   tabContentColors = null;
     let item_content_colors_all = null;
+    let data_set_type = null;
+    let resultData = null;
 
     const tab_content_item_type = { 
         activated: {
@@ -36,7 +38,8 @@ window.onload = function () {
         create_item_type_menu_bar.innerHTML = tab_content_item_type[key].kr_name;
         
         create_item_content.className = "item-content";
-        
+        create_item_content.dataset.type = key;
+
         for(let i = 0; i < item_color.length; i++) {
             let create_item_color = document.createElement('div');
             create_item_color.className = item_color[i] + " color";
@@ -64,6 +67,36 @@ window.onload = function () {
     top_logo_img.addEventListener("mouseout", function (event) {
         event.target.src = "/static/img/home_icon.png";
     });
+    
+    setTimeout(function(){
+        data_set_type = document.querySelectorAll("[data-type]");
+
+        for(let i = 0; i < data_set_type.length; i++) {
+            let data_set_id = data_set_type[i].querySelectorAll("[data-id]");
+
+            for(let j = 0; j < data_set_id.length; j++) {
+                data_set_id[j].addEventListener("click", function() { 
+                    let type = data_set_type[i].dataset.type;
+                    let id = data_set_id[j].dataset.id;
+
+                    // console.log(data_set_id[j]);
+                    // console.log(data_set_type[i].queryydataset.id[j]);
+                    // console.log(resultData.isaac_item[data_set_type[i].dataset.type[j]]);
+                    console.log(resultData.isaac_item[type][id].name);
+
+
+                    /*
+                        현재 이미지 클릭하면 콘솔로 정보 띄우는것 까지 처리
+                        오늘 (토요일) sidebar에 정보 띄우는것 하기
+
+                    */
+                })
+            }
+        }
+
+        // data_set_type = addEventListener("click", function() { console.log("break"); })
+    }, 1000);
+     
 
     //body content 안에 있는 tab의 버튼들을 클릭했을때 처리
     tabNavColors.forEach(function (item, index) {
@@ -102,26 +135,52 @@ window.onload = function () {
             let result = JSON.parse(xhr.responseText);
             let tabColorElement = null;
 
+            resultData = result;
             console.log(result)
             if (result.isaac_item.length == 0) {
                 return;
             }
 
-            tabColorElement = document.querySelector("#item-activated .item-content ." + result.color);
-
-            while (tabColorElement.hasChildNodes()) {
-                tabColorElement.removeChild(tabColorElement.firstChild);
+            tabColorElement = {
+                activated: document.querySelector("#item-activated .item-content ." + result.color),
+                passive: document.querySelector("#item-passive .item-content ." + result.color),
+                accessory: document.querySelector("#item-accessory .item-content ." + result.color),
+                other: document.querySelector("#item-other .item-content ." + result.color)
             }
-
-            for(let key_type in result.isaac_item.data) {
-                for(key_data in result.isaac_item.data[key_type].original) {
+            
+            for(let key_type in tabColorElement) {
+                while (tabColorElement[key_type].hasChildNodes()) {
+                    tabColorElement[key_type].removeChild(tabColorElement[key_type].firstChild);
+                }    
+            }
+            
+            for(let key_type in result.isaac_item) {
+                for(let key_data in result.isaac_item[key_type]) {
                     let createImg = document.createElement('img');
                     
-                    createImg.setAttribute("src", result.isaac_item.data[key_type].original[key_data].img);
-                    createImg.setAttribute("class", "item-img");
-                    tabColorElement.appendChild(createImg);
+                    // console.log(result.isaac_item[key_type][key_data]);
+                    createImg.setAttribute("src", result.isaac_item[key_type][key_data].img);
+
+                    createImg.dataset.id = result.isaac_item[key_type][key_data].id;
+
+                    if( ((result.isaac_item[key_type][key_data].id <= 198 || result.isaac_item[key_type][key_data].id >= 475) && (key_type == "activated")) ||
+                        (result.isaac_item[key_type][key_data].id  <= 198                                                     &&  key_type == "passive"  )  ||
+                        (result.isaac_item[key_type][key_data].id  >= 29                                                      &&  key_type == "accessory")) {
+                        createImg.setAttribute("class", "item-img large");
+                    } else {
+                        createImg.setAttribute("class", "item-img");
+                    }
+
+
+
+                    tabColorElement[key_type].appendChild(createImg);
                 }
             }
+            
+            // document.querySelectorAll("[data-type]")[0].querySelectorAll("[data-id]")[0].addEventListener("click", function() { console.log("break"); })
+            
+            data_set_type = document.querySelectorAll("[data-type]");
+
             // for (key in result.isaac_item.data) {
             //     let createImg = document.createElement('img');
 

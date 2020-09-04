@@ -20,9 +20,10 @@ for (let i = 0; i < maxLength; i++) {
     
     nData_id = divideArray[i][2].children[1].children[0].children[0].innerText;
     isaac_datas_obj[nData_id] = {};
-
+// divideArray[0][1].children[1].children[0].children[0].children[0].children[0].children[1]
     isaac_datas_obj[nData_id].color         = "";
     isaac_datas_obj[nData_id].name          = divideArray[i][0].children[1].children[0].children[0].innerText;
+    isaac_datas_obj[nData_id].img_url       = divideArray[i][1].children[1].children[0].children[0].innerText;
     isaac_datas_obj[nData_id].id            = nData_id;
     // isaac_datas_obj[nData_id].cool_down     = divideArray[i][4].children[1].children[0].innerText.replace("칸", "").trim();
     isaac_datas_obj[nData_id].unlock        = divideArray[i][4].children[1].children[0].innerText.replace(", ", "").replace(/\n/g, "").split(", ");

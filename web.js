@@ -72,7 +72,8 @@ for(let key_type in isaac_item_object) {
 }
 
 isaac_item_object.other = {};
-isaac_item_object.other.card = JSON.parse(JSON.stringify(isaac_items_json));
+isaac_item_object.other.card = JSON.parse(JSON.stringify(isaac_items_json.other.card));
+console.log(isaac_item_object.other.card);
 
 //json 합치는 모듈
 function jsonArrConcat(sourceObj) {
@@ -82,7 +83,7 @@ function jsonArrConcat(sourceObj) {
             destinationObj[key_json] = sourceObj[key_type][key_json];
         }
     }
-
+    
     return destinationObj;
 }
 
@@ -94,7 +95,7 @@ const isaac_version = {
     REBIRTH: 5,
     AFTERBIRTH: 6,
     AFTERBIRTH_PLUS: 7,
-
+    
     3: "ORIGINAL",
     4: "EXPANSING_PACK",
     5: "REBIRTH",
@@ -140,7 +141,7 @@ server.get('/test', function (req, res) {
 server.post('/ajax_test', function (req, res) {
     console.log("req.body.color: " + req.body.color);
     let responseData = { signal: 'ok', color: req.body.color };
-
+    
     //이미지 처리
     for (let key_type in isaac_item_object) {
         for (let key_version in isaac_item_object[key_type]) {
@@ -149,45 +150,41 @@ server.post('/ajax_test', function (req, res) {
             }
         }
     }
-
+    // let responseColor = { 
+    //     activated: { length: 0, data: {} },
+    //     passive: { length: 0, data: {} },
+    //     accessory: { length: 0, data: {} },
+    //     other: { length: 0, data: {} }
+    // }
     let responseColor = { 
-        activated: { length: 0, data: {} },
-        passive: { length: 0, data: {} },
-        accessory: { length: 0, data: {} },
-        other: { length: 40, data: {} }
+        activated: {},
+        passive: {},
+        accessory: {},
+        other: {}
     }
-    //responseData.isaac_item = isaac_item_object.activated.original;
-
     
     //분류 처리
     for (let key_type in isaac_item_object) {
-        if(key_type == "other") {
-            
-            responseColor[key_type].data = isaac_item_object.other.card;
-            continue;
-        }
-            
+        console.log("key_type: " + key_type);
 
         for (let key_version in isaac_item_object[key_type]) {
             
             for(let key_data in isaac_item_object[key_type][key_version]) {
                 if (req.body.color === "all") {
-                    responseColor[key_type].data[key_data] = isaac_item_object[key_type][key_version][key_data];
-                    responseColor[key_type].length++;
+                    responseColor[key_type][key_data] = isaac_item_object[key_type][key_version][key_data];
+                    // responseColor[key_type].length++;
 
                     continue;
                 }
     
                 if (isaac_item_object[key_type][key_version][key_data].color == req.body.color) {
-                    responseColor[key_type].data[key_data] = isaac_item_object[key_type][key_version][key_data];
-                    responseColor[key_type].length++;
+                    responseColor[key_type][key_data] = isaac_item_object[key_type][key_version][key_data];
+                    // responseColor[key_type].length++;
                 }
             }
             
         }
     }
-
-    // console.log(isaac_item_object)
 
     responseData.isaac_item = responseColor;
 
