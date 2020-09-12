@@ -73,7 +73,7 @@ for(let key_type in isaac_item_object) {
 
 isaac_item_object.other = {};
 isaac_item_object.other.card = JSON.parse(JSON.stringify(isaac_items_json.other.card));
-console.log(isaac_item_object.other.card);
+// console.log(isaac_item_object.other.card);
 
 //json 합치는 모듈
 function jsonArrConcat(sourceObj) {
@@ -131,12 +131,18 @@ server.listen(8001, function () {
 });
 
 server.get('/', function (req, res) {
+    // res.sendFile(__dirname, "/public/ttoli.html")
     res.sendFile(__dirname + "/public/index.html");
 })
 
-server.get('/test', function (req, res) {
-    console.log(isaac_item_object);
+server.get('/test', function(req, res) {
+    res.sendFile(__dirname + "/public/popup/ttoli.html");
+    // res.sendFile(__dirname + '/public/index.html');
 })
+
+server.get('/popup/ttoli', function(req, res) {
+    res.sendFile(__dirname + "/public/popup/ttoli.html");
+});
 
 server.post('/ajax_test', function (req, res) {
     console.log("req.body.color: " + req.body.color);
@@ -165,7 +171,7 @@ server.post('/ajax_test', function (req, res) {
     
     //분류 처리
     for (let key_type in isaac_item_object) {
-        console.log("key_type: " + key_type);
+        // console.log("key_type: " + key_type);
 
         for (let key_version in isaac_item_object[key_type]) {
             

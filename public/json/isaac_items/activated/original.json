@@ -1,9 +1,9 @@
 {
     "33": {
         "color": "brown",
-        "name": "The Bible (성경)",
+        "name": "The Bible",
         "id": "33",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "-",
         "place": [
             "천사방",
@@ -22,9 +22,9 @@
     },
     "34": {
         "color": "black",
-        "name": "Book of Belial (밸리알의 서)",
+        "name": "Book of Belial",
         "id": "34",
-        "cool_down": "3",
+        "cool_down": "3칸",
         "unlock": "-",
         "place": [
             "악마방",
@@ -44,9 +44,9 @@
     },
     "35": {
         "color": "brown",
-        "name": "The Necronomicon (네크로노미콘)",
+        "name": "The Necronomicon",
         "id": "35",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "타로카드 XIII-Death 4번 사용",
         "place": [
             "악마방",
@@ -64,9 +64,9 @@
     },
     "36": {
         "color": "brown",
-        "name": "The Poop (똥)",
+        "name": "The Poop",
         "id": "36",
-        "cool_down": "1",
+        "cool_down": "1칸",
         "unlock": "-",
         "place": [
             "보물방"
@@ -80,9 +80,9 @@
     },
     "37": {
         "color": "black",
-        "name": "Mr. Boom! (미스터 붐)",
+        "name": "Mr. Boom!",
         "id": "37",
-        "cool_down": "2",
+        "cool_down": "2칸",
         "unlock": "-",
         "place": [
             "보물방",
@@ -99,7 +99,7 @@
         "color": "white",
         "name": "Tammy's Head (태미의 머리)",
         "id": "38",
-        "cool_down": "1",
+        "cool_down": "1칸",
         "unlock": "-",
         "place": [
             "황금상자",
@@ -116,7 +116,7 @@
         "color": "white",
         "name": "Mom's Bra (엄마의 브래지어)",
         "id": "39",
-        "cool_down": "3",
+        "cool_down": "3칸",
         "unlock": "-",
         "place": [
             "보물방",
@@ -124,7 +124,7 @@
         ],
         "description": [
             "사용 시 방 전체 적에게 4초간 석화 상태이상 효과를 건다",
-            "플레이어의 시각에 강렬한 피해를 준다Yes Mother? 변신 세트 아이템 중 하나이다"
+            "플레이어의 시각에 강렬한 피해를 준다"
         ],
         "version": "original"
     },
@@ -147,15 +147,14 @@
         "color": "white",
         "name": "Mom's Pad (엄마의 생리대)",
         "id": "41",
-        "cool_down": "3",
+        "cool_down": "3칸",
         "unlock": "-",
         "place": [
             "보물방",
             "엄마의 화장대"
         ],
         "description": [
-            "사용 시 방 전체 적에게 5초간 공포 상태이상 효과를 준다",
-            "Yes Mother? 변신 세트 아이템 중 하나이다"
+            "사용 시 방 전체 적에게 5초간 공포 상태이상 효과를 준다"
         ],
         "version": "original"
     },
@@ -163,7 +162,7 @@
         "color": "white",
         "name": "Bob's Rotten Head (밥의 썩은 머리통)",
         "id": "42",
-        "cool_down": "3",
+        "cool_down": "3칸",
         "unlock": "-",
         "place": [
             "황금상자",
@@ -183,7 +182,7 @@
         "color": "blue",
         "name": "Teleport (순간이동)",
         "id": "44",
-        "cool_down": "2",
+        "cool_down": "2칸",
         "unlock": "-",
         "place": [
             "보물방"
@@ -198,7 +197,7 @@
         "color": "red",
         "name": "Yum Heart (맛있는 심장)",
         "id": "45",
-        "cool_down": "4",
+        "cool_down": "4칸",
         "unlock": "-",
         "place": [
             "보물방",
@@ -215,7 +214,7 @@
         "color": "black",
         "name": "Doctor's Remote (박사의 원격 조종기)",
         "id": "47",
-        "cool_down": "2",
+        "cool_down": "2칸",
         "unlock": "-",
         "place": [
             "보물방",
@@ -232,7 +231,7 @@
         "color": "red",
         "name": "Shoop da whoop!",
         "id": "49",
-        "cool_down": "2",
+        "cool_down": "2칸",
         "unlock": "-",
         "place": [
             "보물방",
@@ -248,7 +247,7 @@
         "color": "yellow",
         "name": "Lemon Mishap (레몬빛 사고)",
         "id": "56",
-        "cool_down": "2",
+        "cool_down": "2칸",
         "unlock": "-",
         "place": [
             "보물방",
@@ -265,7 +264,7 @@
         "color": "white",
         "name": "Book of Shadow (그림자의 서)",
         "id": "58",
-        "cool_down": "3",
+        "cool_down": "3칸",
         "unlock": "-",
         "place": [
             "책방",
@@ -282,7 +281,7 @@
         "color": "white",
         "name": "Anarchist Cookbook",
         "id": "65",
-        "cool_down": "3",
+        "cool_down": "3칸",
         "unlock": "-",
         "place": [
             "책방",
@@ -302,7 +301,7 @@
         "color": "white",
         "name": "The Hourglass (모래시계)",
         "id": "66",
-        "cool_down": "2",
+        "cool_down": "2칸",
         "unlock": "-",
         "place": [
             "보물방"
@@ -316,7 +315,7 @@
         "color": "white",
         "name": "My Little Unicorn (나의 작은 유니콘)",
         "id": "77",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "-",
         "place": [
             "보물방",
@@ -331,7 +330,7 @@
         "color": "brown",
         "name": "Book of Revelations (요한계시록)",
         "id": "78",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "묵시록의 4기사[4] 보스 첫번째 클리어",
         "place": [
             "책방",
@@ -342,13 +341,7 @@
         ],
         "description": [
             "사용 시 소울 하트 1개를 얻는다",
-            "한번 이상 사용시 그 스테이지의 보스가 묵시록의 4기사로 대체 될 확률이 높아진다",
-            "Mom, Mom's Heart(+It Lives)는 대체 되지 않는다",
-            "Double Trouble 또는 Mr",
-            "Fred 같이 보스방의 크기가 2칸 이상이면 대체 되지 않는다",
-            "소지중일 시 악마방 등장 확률이 17",
-            "5% 증가한다",
-            "Book Worm 변신 세트 아이템 중 하나이다"
+            "소지중일 시 악마방 등장 확률이 17.5% 증가한다"
         ],
         "version": "original"
     },
@@ -356,7 +349,7 @@
         "color": "white",
         "name": "The Nail (대못)",
         "id": "83",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "Azazel 캐릭터로 Boss Rush 클리어",
         "place": [
             "악마방",
@@ -364,11 +357,7 @@
         ],
         "description": [
             "사용 시 소울 하트 1개를 얻는다",
-            "그리고 그 방에서만 데미지가 0",
-            "7 증가하며 이속이 0",
-            "18 감소하고 접촉하는 적에게 40의 데미지를 주며 장애물을 부술 수 있게 된다",
-            "변신상태서 피격시 악마의 굵은 목소리가 나온다",
-            "Leviathan 변신 세트 아이템 중 하나이다"
+            "그리고 그 방에서만 데미지가 0.7 증가하며 이속이 0.18 감소하고 접촉하는 적에게 40의 데미지를 주며 장애물을 부술 수 있게 된다"
         ],
         "version": "original"
     },
@@ -376,7 +365,7 @@
         "color": "white",
         "name": "We Need to Go Deeper! (아래로 내려가자!)",
         "id": "84",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "-",
         "place": [
             "악마방",
@@ -396,7 +385,7 @@
         "color": "brown",
         "name": "Deck of Cards (카드 덱)",
         "id": "85",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "-",
         "place": [
             "상점방",
@@ -412,7 +401,7 @@
         "color": "white",
         "name": "Monstro's Tooth (몬스트로의 이빨)",
         "id": "86",
-        "cool_down": "3",
+        "cool_down": "3칸",
         "unlock": "2스테이지 처음 클리어",
         "place": [
             "보물방"
@@ -429,7 +418,7 @@
         "color": "white",
         "name": "The Gamekid (게임키드)",
         "id": "93",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "오락실 10회 입장",
         "place": [
             "보물방",
@@ -445,7 +434,7 @@
         "color": "black",
         "name": "The Book of Sin (죄악의 서)",
         "id": "97",
-        "cool_down": "4",
+        "cool_down": "4칸",
         "unlock": "7대죄악 미니보스 모두 처치",
         "place": [
             "악마방",
@@ -465,7 +454,7 @@
         "color": "orange",
         "name": "Mom's Bottle of Pills (엄마의 약병)",
         "id": "102",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "-",
         "place": [
             "거지",
@@ -484,7 +473,7 @@
         "color": "red",
         "name": "The D6 (6면 주사위)",
         "id": "105",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "??? 캐릭터로 Cathedral 스테이지의 보스 Isaac 클리어",
         "place": [
             "보물방",
@@ -501,7 +490,7 @@
         "color": "white",
         "name": "The Pinking Shears (핑킹 가위)",
         "id": "107",
-        "cool_down": "6",
+        "cool_down": "6칸",
         "unlock": "-",
         "place": [
             "보물방",
@@ -509,8 +498,7 @@
         ],
         "description": [
             "사용 시 그 방에서 몸과 머리가 분리된다",
-            "머리는 비행 효과를 가지며 조종할 수 있고 몸은 적에게 접촉해 초당 82",
-            "5의 피해를 입힌다",
+            "머리는 비행 효과를 가지며 조종할 수 있고 몸은 적에게 접촉해 초당 82.5의 피해를 입힌다",
             "최강의 패밀리어몸의 이동속도는 캐릭터의 속도 스탯에 비례한다"
         ],
         "version": "original"
@@ -519,7 +507,7 @@
         "color": "brown",
         "name": "The Bean (콩)",
         "id": "111",
-        "cool_down": "1",
+        "cool_down": "1칸",
         "unlock": "-",
         "place": [
             "거지",
@@ -535,17 +523,14 @@
         "color": "brown",
         "name": "Monster Manual (몬스터 도감)",
         "id": "123",
-        "cool_down": "3",
+        "cool_down": "3칸",
         "unlock": "-",
         "place": [
             "보물방",
             "그리드모드 책방"
         ],
         "description": [
-            "사용 시 그 방에서만 랜덤 패밀리어 하나를 소환한다",
-            "소환되는 패밀리어 목록【펼치기 · 접기】* ???'s Only Friend* Ball of Bandages* Big Fan Big Fan* Bob's Brain* Brother Bobby* Cube of Meat* Demon Baby* Distant Admiration* Dry Baby* Forever Alone* Gemini* Guardian Angel* Halo of Flies* Headless Baby* Juicy Sack* Leech* Lil' Brimstone* Lil Haunt* Little Chubby* Little Gish* Little Steven* Robo-Baby 2",
-            "0* Robo-Baby* Rotten Baby* Sissy Longlegs* Sister Maggy* Smart FlyBook Worm 변신 세트 아이템 중 하나이다",
-            "책인데도 불구하고 일반모드 책방에서 유일하게 안나온다"
+            "사용 시 그 방에서만 랜덤 패밀리어 하나를 소환한다"
         ],
         "version": "original"
     },
@@ -553,7 +538,7 @@
         "color": "white",
         "name": "Dead Sea Scrolls (사해문서)",
         "id": "124",
-        "cool_down": "2",
+        "cool_down": "2칸",
         "unlock": "-",
         "place": [
             "천사방",
@@ -561,9 +546,7 @@
             "그리드모드 보물방"
         ],
         "description": [
-            "사용 시 랜덤한 액티브 아이템의 효과를 발동시킨다",
-            "발동되는 아이템 목록【펼치기 · 접기】* Anarchist Cookbook* Bob's Rotten Head* The Book of Belial* Book of Revelations* Book of Shadows* The Book of Sin* Crack the Sky* Deck of Cards* Explosive Diarrhea 알약* The Gamekid* The Hourglass* Kamikaze!* Lemon Mishap* Lemon Party 알약* Mom's Bottle of Pills* Mom's Bra* Monstro's Tooth* Mr",
-            "Boom* My Little Unicorn* The Nail* The Pinking Shears* Satanic Bible* Shoop Da Whoop!* Tammy's Head* Teleport Teleport* We Need to Go Deeper!* Yum Heart* Wooden Nickel"
+            "사용 시 랜덤한 액티브 아이템의 효과를 발동시킨다"
         ],
         "version": "original"
     },
@@ -577,8 +560,7 @@
             "악마방"
         ],
         "description": [
-            "사용 시 피 한 칸을 깎고 그 방에서 공격력 1",
-            "2를 증가시킨다",
+            "사용 시 피 한 칸을 깎고 그 방에서 공격력 1.2를 증가시킨다",
             "그리드 기부 기계에 439원 기부시 Eve가 들고 시작한다",
             "Ultra Greed 스테이지 보스방에서 사용시 적에게 피격을 받는것과 같이 2~4개의 동전을 잃고 1~3개의 동전을 드랍한다"
         ],
@@ -606,16 +588,14 @@
         "color": "black",
         "name": "A Pony (조랑말)",
         "id": "130",
-        "cool_down": "4",
+        "cool_down": "4칸",
         "unlock": "-",
         "place": [
             "Headless Horseman 보스"
         ],
         "description": [
-            "소지시 비행 능력을 얻고, 이속이 1",
-            "5 밑으로 떨어지지 않는다",
-            "사용시 캐릭터가 바라보는 방향으로 돌진하며 접촉한 적에게 40의 피해를 준다",
-            "돌진중에는 무적"
+            "소지시 비행 능력을 얻고, 이속이 1.5 밑으로 떨어지지 않는다",
+            "사용시 캐릭터가 바라보는 방향으로 돌진하며 접촉한 적에게 40의 피해를 준다, 돌진중에는 무적"
         ],
         "version": "original"
     }
