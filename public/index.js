@@ -94,14 +94,12 @@ window.onload = function () {
                         let type = data_set_type[i].dataset.type;
                         let id = data_set_id[j].dataset.id;
 
-                        // sidebar_item_information
-
-                        let createId = document.createElement('p');
-                        let createImg = document.createElement('img');
-                        let createImgBox = document.createElement('div');
-                        let createName = document.createElement('p');
-                        let createCoolDown = document.createElement('p');
-                        let createWrittenBox = document.createElement('div');
+                        let createId             = document.createElement('p');
+                        let createImg            = document.createElement('img');
+                        let createImgBox         = document.createElement('div');
+                        let createName           = document.createElement('p');
+                        let createCoolDown       = document.createElement('p');
+                        let createWrittenBox     = document.createElement('div');
                         let createDescriptionBox = document.createElement('div');
                         
                         let clicked_item_data = {

@@ -34,7 +34,7 @@ function copyObj(obj) {
 }
 
 const skeleton_isaac_version = {
-    // all: null,
+    all: null,
     original: null,
     expansion_pack: null,
     rebirth: null,
@@ -61,9 +61,12 @@ for (let key_type in isaac_items_json) {
         isaac_items_json[key_type][key_json] = require(path_isaac.json + path_isaac.item_type[key_type] + "/" + key_json + ".json");
     }
 }
-isaac_items_json.other = {};
 
-isaac_items_json.other.card = require(path_isaac.json + path_isaac.item_type.other + "/card.json")
+isaac_items_json.other = {};
+isaac_items_json.other.card  = require(path_isaac.json + path_isaac.item_type.other + "/card.json")
+
+let test_activated_data_json = require(path_isaac.json + path_isaac.item_type.activated + "/all.json")
+
 
 for(let key_type in isaac_item_object) {
     for (let key_data in isaac_item_object[key_type]) {
@@ -73,7 +76,8 @@ for(let key_type in isaac_item_object) {
 
 isaac_item_object.other = {};
 isaac_item_object.other.card = JSON.parse(JSON.stringify(isaac_items_json.other.card));
-// console.log(isaac_item_object.other.card);
+
+test_activated_data_object = JSON.parse(JSON.stringify(test_activated_data_json));
 
 //json 합치는 모듈
 function jsonArrConcat(sourceObj) {
@@ -87,7 +91,7 @@ function jsonArrConcat(sourceObj) {
     return destinationObj;
 }
 
-const testObject = (jsonArrConcat(isaac_items_json.passive));
+// const testObject = (jsonArrConcat(isaac_items_json.passive));
 
 const isaac_version = {
     ORIGINAL: 3,
@@ -120,7 +124,7 @@ const original_skeleton_object = {
     img: "",
     name: "",
     color: "",
-    version: isaac_version,    //버전
+    version: isaac_version,             //버전
     cooldown: 0,                        //쿨타임
     condition_of_unlock: "",            //언락 조건
     description: []
@@ -146,7 +150,7 @@ server.get('/popup/ttoli', function(req, res) {
 
 server.post('/ajax_test', function (req, res) {
     console.log("req.body.color: " + req.body.color);
-    let responseData = { signal: 'ok', color: req.body.color };
+    let responseData = { signal: 'ok', color: req.body.color, test: test_activated_data_object};
     
     //이미지 처리
     for (let key_type in isaac_item_object) {
@@ -156,12 +160,7 @@ server.post('/ajax_test', function (req, res) {
             }
         }
     }
-    // let responseColor = { 
-    //     activated: { length: 0, data: {} },
-    //     passive: { length: 0, data: {} },
-    //     accessory: { length: 0, data: {} },
-    //     other: { length: 0, data: {} }
-    // }
+    
     let responseColor = { 
         activated: {},
         passive: {},
