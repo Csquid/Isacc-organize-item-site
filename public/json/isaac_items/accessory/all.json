@@ -1,0 +1,1791 @@
+{
+    "29": {
+      "color": "",
+      "name": "Fish Head(물고기 머리)",
+      "id": "29",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "피격당할 시 적에게 날아가는 푸른색 아군 파리가 생긴다"
+      ],
+      "version": "expansion_pack"
+    },
+    "30": {
+      "color": "",
+      "name": "Pinky Eye(분홍 눈알)",
+      "id": "30",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "10% 확률로 중독 상태이상 효과를 주는 눈물을 발사한다",
+        "Dr Fetus의 폭탄에도 적용된다",
+        "럭이 18일 경우 100% 확률로 항상 독성 눈물이 나간다"
+      ],
+      "version": "expansion_pack"
+    },
+    "31": {
+      "color": "",
+      "name": "Push Pin(압핀)",
+      "id": "31",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "10%의 확률로 적과 장애물을 관통하는 효과를 가진 세모 모양의 눈물이 나간다",
+        "행운 수치가 18일 경우 100% 확률로 이 눈물이 나간다"
+      ],
+      "version": "expansion_pack"
+    },
+    "32": {
+      "color": "",
+      "name": "Liberty Cap(환각 버섯)",
+      "id": "32",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "방 클리어 여부에 상관없이 25%의 확률로 방에 들어갈 때마다 임의의 버섯(Mini Mush, 넓적한 Odd Mushroom, 홀쭉한 Odd Mushroom) 또는 The Compass 효과[5]를 얻는다",
+        "Treasure Map 패시브 아이템이 있을때 이 장신구에 의해 The Compass효과를 얻게 되면 그층에서는 컴파스 효과를 계속 가지게 된다",
+        "일반 드랍외에 버섯 오브젝트 파괴시 일정 확률로 얻을 수 있다"
+      ],
+      "version": "expansion_pack"
+    },
+    "33": {
+      "color": "",
+      "name": "Umbilical Cord(탯줄)",
+      "id": "33",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "오직 빨간 하트 반 칸만 남았을 때 Little Steven가 소환된다",
+        "소울 하트나 블랙 하트가 있어서도 안되는 데다가 소환하는 패밀리어의 성능도 그닥 좋지 않고, 무엇보다 방을 나가면 패밀리어가 사라진다",
+        "사실상 그냥 들 수 있으니까 드는 장신구"
+      ],
+      "version": "expansion_pack"
+    },
+    "34": {
+      "color": "",
+      "name": "Child's Heart(아이의 심장)",
+      "id": "34",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "방 클리어, 상자류에서 10%확률로 나올 수 있는 보상을 빨간하트로 바꾼다",
+        "또한 상자, 색돌, 슬롯머신, 점술기계에서 보상이 나올때 하트류가 추가로 나올 확률이 생긴다",
+        "헌혈기계에서 기부를 하면 이 장신구가 적은 확률로 나온다",
+        "챌린지(도전 모드) 34번 Ultra Hard 클리어시 Samson 캐릭터가 이 아이템을 기본으로 들고 시작한다"
+      ],
+      "version": "expansion_pack"
+    },
+    "35": {
+      "color": "",
+      "name": "Curved Horn(휜 뿔)",
+      "id": "35",
+      "unlock": [
+        "Judas 캐릭터로 Dark Room 스테이지의 보스 The Lamb 클리어"
+      ],
+      "description": [
+        "공격력 최종 계산 후, 이 장신구가 추가로 공격력을 2 증가시킨다",
+        "단 일부 배율에 적용되는데 대상은 다음과 같다",
+        "- Magic Mushroom 또는 Cricket 's Head(중첩이 되지 않으므로) : 1",
+        "5배이므로 3이 올라간다",
+        "- Technology 2 : 0",
+        "9배율에 - 0",
+        "4 감소하여 1",
+        "4가 증가한다",
+        "- Soy Milk : 80%가 감소되어 0",
+        "4가 증가한다",
+        "- Odd Mushroom : 35%가 감소되어 1",
+        "3이 증가한다"
+      ],
+      "version": "expansion_pack"
+    },
+    "36": {
+      "color": "",
+      "name": "Rusted Key(녹슨 열쇠)",
+      "id": "36",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "방 클리어 보상에서 10% 확률로 원래 나올 보상 대신 열쇠가 나온다",
+        "또한 상자, 색돌, 슬롯머신, 점술기계에서 보상이 나올때 열쇠류가 추가로 나올 확률이 생긴다"
+      ],
+      "version": "expansion_pack"
+    },
+    "37": {
+      "color": "",
+      "name": "Goat Hoof(염소 발굽)",
+      "id": "37",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "이동 속도를 0",
+        "15 증가시킨다",
+        "이 수치는 이동 속도에서 아이템 등에 의해 깎인 최대 수치를 넘길 수 있다",
+        "단 2를 넘지는 않는다"
+      ],
+      "version": "expansion_pack"
+    },
+    "38": {
+      "color": "",
+      "name": "Mom's Pearl(엄마의 진주)",
+      "id": "38",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "하트류 픽업템이 나올때 소울 하트로 대체되어 나올 확률이 10% 증가한다",
+        "Mitre의 효과와 중복된다"
+      ],
+      "version": "expansion_pack"
+    },
+    "39": {
+      "color": "",
+      "name": "Cancer(암)",
+      "id": "39",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "공격 속도가 2 증가한다",
+        "이 수치는 각 캐릭터가 가지는 기본 한계 수치를 넘길 수 있다",
+        "단 시스템의 최대 수치인 1을 넘기지는 않는다"
+      ],
+      "version": "expansion_pack"
+    },
+    "40": {
+      "color": "",
+      "name": "Red Patch(빨간 누더기)",
+      "id": "40",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "현재방에서 피격시 일정 확률로 1",
+        "8의 데미지가 올라간다",
+        "럭 수치가 8일때 100% 확률로 발동한다",
+        "방 한정으로 효과 중첩이 가능하기 때문에 Dull Razor등을 사용하여 피격효과만 따로 얻고 발동시킬수도 있다"
+      ],
+      "version": "expansion_pack"
+    },
+    "41": {
+      "color": "",
+      "name": "Match Stick(성냥개비)",
+      "id": "41",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "일반 드랍 이외에도 TNT통에서 가끔 드랍될 수 있으며 방 클리어시 나오는 보상을 10%확률로 폭탄류로 바꾼다",
+        "또한 상자, 색돌, 슬롯머신, 점술기계에서 보상이 나올때 열쇠류가 추가로 나올 확률이 생긴다",
+        "이 장신구로 장신구 Tick을 밀어내는 게 가능하다",
+        "[6] 단 장신구 슬롯을 늘려주는 Mom's Purse나 Belly Button 패시브 아이템들이 있을때는 슬롯 하나를 차지하기 때문에 밀어내기 효과가 사라진다"
+      ],
+      "version": "expansion_pack"
+    },
+    "42": {
+      "color": "",
+      "name": "Lucky Toe(행운의 발가락)",
+      "id": "42",
+      "unlock": [
+        "그리드 인형을 20개 폭파"
+      ],
+      "description": [
+        "럭 수치가 1 증가한다",
+        "33% 확률로 황금상자 오픈시, 기계류 파괴시, 색돌 파괴시 추가로 픽업 아이템 하나 더 드랍한다",
+        "럭 수치와 관계없이 방 클리어시 픽업 아이템이 나올 확률이 높아진다"
+      ],
+      "version": "expansion_pack"
+    },
+    "43": {
+      "color": "",
+      "name": "Cursed Skull(저주받은 해골)",
+      "id": "43",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "소울, 블랙하트와 상관없이 현재 빨간 하트 체력이 반 칸 이하인 상황에서 피격 시 바로 랜덤한 방으로 순간이동한다",
+        "홀리멘틀을 가지고 있는 로스트는 적용되지 않으며 ???의 경우 발동되지 않는다",
+        "포가튼의 뼈하트 체력 및 획득한 뼈하트 역시 계산에서 제외된다"
+      ],
+      "version": "expansion_pack"
+    },
+    "44": {
+      "color": "",
+      "name": "Safety Cap(안전 마개)",
+      "id": "44",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "방 클리어 보상에서 10% 확률로 원래 나올 보상 대신 알약이 나온다",
+        "또한 상자, 색돌, 슬롯머신, 점술기계에서 보상이 나올때 알약이 추가로 나올 확률이 생긴다"
+      ],
+      "version": "expansion_pack"
+    },
+    "45": {
+      "color": "",
+      "name": "Ace of Spades (스페이드 10)",
+      "id": "45",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "방 클리어, 상자류 오픈, 점술기계 기부에서의 카드류 전반의 획득 확률을 올린다"
+      ],
+      "version": "expansion_pack"
+    },
+    "46": {
+      "color": "",
+      "name": "Isaac's Fork (아이작의 포크)",
+      "id": "46",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "방을 클리어 시 10% 확률로 하트가 반 칸 회복된다",
+        "Maggy 's Bow아이템과는 시너지가 없다",
+        "키퍼는 코인체력을 한칸 채워준다"
+      ],
+      "version": "expansion_pack"
+    },
+    "48": {
+      "color": "",
+      "name": "A Missing Page (찢어진 페이지)",
+      "id": "48",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "피격 시 5%의 확률로 Necronomicon 효과가 발동된다",
+        "운 확률에 따라 달라지며 럭이 약 50~60수치일때 50% 확률정도로 발동된다",
+        "Missing Poster와 이름이 비슷해서 로스트 해금할때 혼동하는 사람들도 있다",
+        "홀리멘틀이 있을때는 보호막이 해제되어야 가능하다"
+      ],
+      "version": "expansion_pack"
+    },
+    "49": {
+      "color": "",
+      "name": "Bloody Penny (피묻은 동전)",
+      "id": "49",
+      "unlock": [
+        "Samson 캐릭터로 The Chest 스테이지의 보스 ??? 클리어"
+      ],
+      "description": [
+        "동전 획득 시 50%의 확률로 하트 반 칸이 소환된다",
+        "IV Bag과 궁합이 좋다",
+        "스페셜 그리드 인형을 처치할 때 낮은확률로 드랍되기도 한다"
+      ],
+      "version": "expansion_pack"
+    },
+    "50": {
+      "color": "",
+      "name": "Burnt Penny (타버린 동전)",
+      "id": "50",
+      "unlock": [
+        "챌린지(도전 모드) 13번 Beans! 클리어"
+      ],
+      "description": [
+        "동전 획득 시 50%의 확률로 랜덤한 폭탄 하나가 소환된다",
+        "스페셜 그리드 인형을 처치할 때 낮은확률로 드랍되기도 한다"
+      ],
+      "version": "expansion_pack"
+    },
+    "51": {
+      "color": "",
+      "name": "Flat Penny (납작한 동전)",
+      "id": "51",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "동전 획득 시 50% 확률로 열쇠를 얻는다",
+        "스페셜 그리드 인형을 처치할 때 낮은확률로 드랍되기도 한다"
+      ],
+      "version": "expansion_pack"
+    },
+    "52": {
+      "color": "",
+      "name": "Counterfeit Penny (가짜 동전)",
+      "id": "52",
+      "unlock": [
+        "야바위꾼 거지의 야바위 놀이를 100번 플레이 한다."
+      ],
+      "description": [
+        "코인류 획득 시 50% 확률로 코인+1효과를 얻는다",
+        "일반적으로 발견될수 있으나 추가적으로 황금 똥, 일반 거지, 야바위꾼 거지(승리시)에게서도 일정 확률로 나올 수 있다",
+        "키퍼가 체력이 깎여 있는 상태에서 이 장신구의 효과가 발동시 +1효과는 체력 회복으로 적용된다",
+        "즉 코인 1개는 온전하게 획득 가능"
+      ],
+      "version": "expansion_pack"
+    },
+    "53": {
+      "color": "",
+      "name": "Tick (진드기)",
+      "id": "53",
+      "unlock": [
+        "-"
+      ],
+      "description": [
+        "체력이 60 이상인 적일경우[9] 체력이 15% 깎여서 등장하고 클리어하지 않은 보스 방에 진입 시 캐릭터의 빨간 하트 체력 1칸이 회복된다",
+        "이 장신구를 한 번 착용했다면 Match Stick을 착용해 밀어내거나 Marble, Smelter 아이템, Gulp! 알약으로 흡수하기 전까지 타 장신구로 교체가 불가능하다"
+      ],
+      "version": "expansion_pack"
+    },
+    "54": {
+      "color": "",
+      "name": "Isaac's Head (아이작의 머리)",
+      "id": "54",
+      "unlock": [
+        "Isaac 캐릭터로 Boss Rush 클리어"
+      ],
+      "description": [
+        "패밀리어",
+        "적을 관통하는 3",
+        "5공격의 눈물을 쏜다",
+        "장신구를 버렸다가 다시 획득하면 첫번째 패밀리어 쪽으로 소환순서가 바뀐다"
+      ],
+      "version": "expansion_pack"
+    },
+    "55": {
+      "color": "",
+      "name": "Maggy's Faith (매기[10]의 믿음)",
+      "id": "55",
+      "unlock": [
+        "Magdalene 캐릭터로 Dark Room 스테이지의 보스 The Lamb 클리어"
+      ],
+      "description": [
+        "매 층을 시작할 때마다 이터널 하트 한 칸이 주어진다",
+        "키퍼로는 하트는 커녕 파리조차도 생성되지 않는다"
+      ],
+      "version": "expansion_pack"
+    },
+    "56": {
+      "color": "",
+      "name": "Judas' Tongue (유다의 혀)",
+      "id": "56",
+      "unlock": [
+        "Judas 캐릭터로 Sheol 스테이지의 보스 Satan 클리어"
+      ],
+      "description": [
+        "악마 방의 2개짜리 거래 하트가 1개짜리로 감소한다",
+        "소울 하트에는 적용되지 않는다"
+      ],
+      "version": "expansion_pack"
+    },
+    "57": {
+      "color": "",
+      "name": "???'s Soul (???의 영혼)",
+      "id": "57",
+      "unlock": [
+        "??? 캐릭터로 Dark Room 스테이지의 보스 The Lamb 클리어"
+      ],
+      "description": [
+        "패밀리어",
+        "아이작이 기본적으로 쏘는 눈물 사거리와 3",
+        "5의 공격력,그리고 장애물을 통과하는 눈물을 쏜다",
+        "The Peeper 눈알처럼 방 안을 튕겨다닌다"
+      ],
+      "version": "expansion_pack"
+    },
+    "58": {
+      "color": "",
+      "name": "Samson's Lock (삼손의 머리채)",
+      "id": "58",
+      "unlock": [
+        "Samson 캐릭터로 Dark Room 스테이지의 보스 The Lamb 클리어"
+      ],
+      "description": [
+        "적을 죽일 시 1/15의 확률로 공격력이 0",
+        "5씩 증가한다",
+        "현재 방 안에서만 효과가 있고 방을 나갈시 초기화 되며 중첩은 매번 10회까지 가능하다",
+        "럭 수치가 10일 경우 100% 확률로 장신구 효과가 발동된다",
+        "Bloody Lust의 효과와 중첩된다"
+      ],
+      "version": "expansion_pack"
+    },
+    "59": {
+      "color": "",
+      "name": "Cain's Eye (카인의 눈)",
+      "id": "59",
+      "unlock": [
+        "Cain 캐릭터로 The Chest 스테이지의 보스 ??? 클리어"
+      ],
+      "description": [
+        "층을 시작할 때 25% 확률로 그 층에서만 Compass 효과가 발동한다",
+        "행운 수치가 3일때 100% 확률로 발동한다"
+      ],
+      "version": "expansion_pack"
+    },
+    "60": {
+      "color": "",
+      "name": "Eve's Bird Foot (이브의 새 다리)",
+      "id": "60",
+      "unlock": [
+        "Eve 캐릭터로 Cathedral 스테이지의 보스 Isaac 클리어"
+      ],
+      "description": [
+        "해당 방 안에서 적을 죽일때마다 5% 확률로 Dead Bird와 비슷한 효과가 발동된다",
+        "이 때의 새는 다리가 하나 없는 투명한 생김새를 띄며, 일반적인 Dead Bird로 생성되는 새보다 공격력이 약한 초당 4의 데미지를 입힌다",
+        "이 새는 중복으로 소환할 수 없다"
+      ],
+      "version": "expansion_pack"
+    },
+    "61": {
+      "color": "",
+      "name": "The Left Hand (왼손목)",
+      "id": "61",
+      "unlock": [
+        "Judas 캐릭터로 The Chest 스테이지의 보스 ??? 클리어 또는 Ultra Pride 미니보스 클리어"
+      ],
+      "description": [
+        "장착 이후 나오는 모든 상자가 빨간색 상자로 바뀐다",
+        "이미 나온 상자도 이 장신구를 착용한 순간 영구적으로 빨간 상자로 바뀐다"
+      ],
+      "version": "expansion_pack"
+    },
+    "1": {
+        "color": "",
+        "name": "Swallowed Penny (삼킨 동전)",
+        "id": "1",
+        "unlock": [
+          "챌린지(도전 모드) 15번 Slow Roll 클리어"
+        ],
+        "description": [
+          "피격을 당하면 동전을 드랍한다",
+          "Keeper 필수템 항아리 오브젝트나 스페셜 그리드 인형을 파괴시 확률적으로 얻을 수 있다"
+        ],
+        "version": "rebirth"
+      },
+      "2": {
+        "color": "",
+        "name": "Petrified Poop (굳은 똥)",
+        "id": "2",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "똥을 부술 시 기타 아이템이 나올 확률이 50%로 증가한다",
+          "똥을 부술 때, 적은 확률로 드랍된다",
+          "2*2사이즈 방에서 A Card Against Humanity와 시너지 효과가 엄청나다"
+        ],
+        "version": "rebirth"
+      },
+      "3": {
+        "color": "",
+        "name": "AAA Battery (AAA 건전지)",
+        "id": "3",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "액티브 아이템의 완충에 필요한 충전 게이지가 한 칸만 남았을 경우 그 게이지를 자동으로 채워준다",
+          "1칸짜리 또는 자동으로 충전되는 아이템에는 적용되지 않는다",
+          "The Battery의 두번째 충전 게이지는 이 장신구의 효과가 없다",
+          "schoolbag에 의해 두번째 액티브 아이템도 자동으로 채워준다"
+        ],
+        "version": "rebirth"
+      },
+      "4": {
+        "color": "",
+        "name": "Broken Remote (고장난 조종기)",
+        "id": "4",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "액티브 아이템을 사용할 시 텔레포트를 한다",
+          "충전 게이지가 없는 Remote Detonator 등의 아이템을 가지고 있으면 무한 텔레포트가 가능하다",
+          "액티브 아이템을 사용하는 즉시 발동되기 때문에 PLAN C나 성경을 들고 엄마발등의 일부 보스방에서 사용시 보스 사망 모션이 나오기 전에 텔레포트를 하여 재시작 해야되니 주의",
+          "또한 해당층에 있는 방들 중 하나로 텔레포트 될뿐이니 악마방, 천사방, 에러방, 레트로방 등은 이동할 수 없다"
+        ],
+        "version": "rebirth"
+      },
+      "5": {
+        "color": "",
+        "name": "Purple Heart (퍼플 하트 훈장)",
+        "id": "5",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "챔피언 몬스터[12]의 등장 확률이 2배 증가한다",
+          "도전방이 보스도전방으로 바껴서 나올 확률이 증가한다"
+        ],
+        "version": "rebirth"
+      },
+      "6": {
+        "color": "",
+        "name": "Broken Magnet (깨진 자석)",
+        "id": "6",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "바닥에 떨어진 동전류를 플레이어 쪽으로 천천히 끌어온다",
+          "Magneto와 달리 다른 기타 아이템은 끌어오지 않는다"
+        ],
+        "version": "rebirth"
+      },
+      "7": {
+        "color": "",
+        "name": "Rosary Bead (묵주 구슬)",
+        "id": "7",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "장착 시 한정으로 책방에서 45% 상점에서 13%로 The Bible 액티브 아이템이 나올 확률 증가",
+          "천사방의 등장 확률을 25% 더 올려준다",
+          "다만 보스 클리어 후 다음층으로 내려갈때의 천사방, 악마방의 확률을 개별로 증가시켜주지는 않는다"
+        ],
+        "version": "rebirth"
+      },
+      "8": {
+        "color": "",
+        "name": "Cartridge (카트리지)",
+        "id": "8",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "피격 시 일정한 확률로 The Gamekid 효과[13]가 발동된다",
+          "럭 수치가 38일때 100% 발동한다"
+        ],
+        "version": "rebirth"
+      },
+      "9": {
+        "color": "",
+        "name": "Pulse Worm (파동 벌레)",
+        "id": "9",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "눈물이 날아가면서 커졌다 작아졌다를 반복한다",
+          "커지거나 작아진 것에 따라 히트박스 크기가 달라진다",
+          "다만 대미지에는 전혀 영향이 없다",
+          "혈사는 이것에 영향을 받으려면 루도비코가 같이 있어야 한다"
+        ],
+        "version": "rebirth"
+      },
+      "10": {
+        "color": "",
+        "name": "Wiggle Worm (꿈틀 벌레)",
+        "id": "10",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "오리지널에서 패시브 아이템이던 그것",
+          "공격 속도를 0",
+          "3 증가시키며 눈물이 S자 곡선을 그리며 날아간다"
+        ],
+        "version": "rebirth"
+      },
+      "11": {
+        "color": "",
+        "name": "Ring Worm (고리 벌레)",
+        "id": "11",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "눈물이 빠른 속도로 소용돌이를 치며 날아간다",
+          "거리 효과는 없음에도 불구하고 히트박스 범위가 넓다는 느낌을 준다"
+        ],
+        "version": "rebirth"
+      },
+      "12": {
+        "color": "",
+        "name": "Flat Worm (납작 벌레)",
+        "id": "12",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "눈물의 모양이 납작해지고 넓은 타원형 모양으로 변한다",
+          "눈물에 넉백 효과가 추가된다",
+          "Polyphemus와 Cupid 's Arrow가 같이 있으면 시너지 효과로 눈물크기가 거의 두배로 커진다"
+        ],
+        "version": "rebirth"
+      },
+      "13": {
+        "color": "",
+        "name": "Store Credit (외상 증서)",
+        "id": "13",
+        "unlock": [
+          "Lazarus 캐릭터로 The Chest 스테이지의 보스 ??? 처치"
+        ],
+        "description": [
+          "소지하고 있으면 상점의 모든 아이템이 무료가 된다",
+          "무료가 된 아이템을 하나 사면 장신구는 사라진다",
+          "단, 장신구를 사면 해당 장신구가 사라지지 않는다",
+          "하트를 요구하는 악마방이나 블랙 마켓에선 적용되지 않는다"
+        ],
+        "version": "rebirth"
+      },
+      "14": {
+        "color": "",
+        "name": "Callus (굳은살)",
+        "id": "14",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "가시, 적들이 흘린 피에 대미지를 입지 않는다",
+          "희생방의 가시에도 피해를 입지 않아 장신구를 내려놓을때까지 사용할 수 없게 된다",
+          "저주 방의 출입구, 그리드 모드의 웨이브 정지 버튼에는 대미지를 입는다"
+        ],
+        "version": "rebirth"
+      },
+      "15": {
+        "color": "",
+        "name": "Lucky Rock (행운의 돌조각)",
+        "id": "15",
+        "unlock": [
+          "돌을 100개 파괴"
+        ],
+        "description": [
+          "폭파시킬수 있는 모든 오브젝트들을 부술 때마다 개당 동전 1원이 드랍된다",
+          "Bomb Rock은 부숴도 동전이 드랍되지 않는다"
+        ],
+        "version": "rebirth"
+      },
+      "16": {
+        "color": "",
+        "name": "Mom's Toenail (엄마의 발톱)",
+        "id": "16",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "습득한 시간에 관계 없이 매 분 00초[18]에 300데미지나 주는 엄마 발이 랜덤한 위치에 떨어진다",
+          "당연하지만 이 발에 맞으면 하트 1칸의 대미지를 입으니 주의",
+          "폭발 효과로 취급되기 때문에 아주 적은 확률이지만 방문이나 비밀방을 열수 있기도 하다"
+        ],
+        "version": "rebirth"
+      },
+      "17": {
+        "color": "",
+        "name": "Black Lipstick (검은 립스틱)",
+        "id": "17",
+        "unlock": [
+          "Eve 캐릭터로 Dark Room 스테이지의 보스 The Lamb 클리어"
+        ],
+        "description": [
+          "방 클리어시 블랙하트가 나올 확률이 증가한다",
+          "이 장신구는 천사방이나 악마방의 확률을 건들지 않는다"
+        ],
+        "version": "rebirth"
+      },
+      "18": {
+        "color": "",
+        "name": "Bible Tract (주보)",
+        "id": "18",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "방 클리어시 이터널 하트가 나올 확률이 증가한다",
+          "이 장신구는 천사방이나 악마방의 확률을 건들지 않는다"
+        ],
+        "version": "rebirth"
+      },
+      "19": {
+        "color": "",
+        "name": "Paper Clip (종이 클립)",
+        "id": "19",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "열쇠 소모 없이 황금 상자를 열 수 있게 된다",
+          "방문, 열쇠 블록, 열쇠 거지에게는 기존 열쇠가 소모된다",
+          "구피의 꼬리와 궁합이 좋다",
+          "그리드모드에서 68코인 기부시 카인이 기본으로 들고 시작한다"
+        ],
+        "version": "rebirth"
+      },
+      "20": {
+        "color": "",
+        "name": "Monkey Paw (원숭이 손)",
+        "id": "20",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "피격을 입었을때 반드시 빨간 체력만 반 칸 남게 되면 블랙 하트를 1개 드랍한다",
+          "총 3번 사용할 수 있으며 장신구 자체의 손가락이 접히는 것으로 사용한 횟수가 나타난다",
+          "같은 방에서 연속으로 발동하지 않는다",
+          "엄마의 상자 액티브 아이템과 시너지 효과가 전혀 없다"
+        ],
+        "version": "rebirth"
+      },
+      "21": {
+        "color": "",
+        "name": "Mysterious Paper (신비한 종이)",
+        "id": "21",
+        "unlock": [
+          "Eden 캐릭터로 The Chest의 보스 ??? 클리어"
+        ],
+        "description": [
+          "피격시 적은 확률로 다음중 하나가 랜덤하게 발생한다"
+        ],
+        "version": "rebirth"
+      },
+      "22": {
+        "color": "",
+        "name": "Daemon's Tail (악마 꼬리)",
+        "id": "22",
+        "unlock": [
+          "Azazel 캐릭터로 Sheol 스테이지의 보스 Satan 클리어"
+        ],
+        "description": [
+          "픽업템이 떨어질때 하트류의 드랍 확률이 20% 줄어들고 열쇠 드랍확률이 살짝 늘어나며 하트류 드랍시 가능하면 SIN 하트로 대체된다",
+          "방에 들어갈때 기존에 하트가 있었다면 그 하트는 SIN하트로 대체된다",
+          "[19] 푸른 모닥불이나 little C",
+          "H",
+          "A",
+          "D처럼 블랙하트가 나올수 없는 아이템이나 오브젝트등은 효과가 없다",
+          "VI-The Lovers, V-Hierophant 카드 사용시 SIN하트가 나오지 않고 각각 빨간하트, 소울하트만 나온다",
+          "빨간 하트를 얻지 못하는 ??? 캐릭터와 상성이 매우 좋다",
+          "Mitre 패시브 아이템, Mom 's Pearl 장신구, Bible Tract 장신구의 시너지 영향을 받지 않는다",
+          "Ace of Hearts카드 사용시 변환되는 하트들은 무조건 SIN하트로 변한다"
+        ],
+        "version": "rebirth"
+      },
+      "23": {
+        "color": "",
+        "name": "Missing Poster (실종 포스터)",
+        "id": "23",
+        "unlock": [
+          "isaac 캐릭터로 Dark Room 스테이지의 보스 The Lamb 클리어"
+        ],
+        "description": [
+          "이 장신구를 가진채 희생방에서 가운데 가시를 이용해서 자살하면 The Lost 캐릭터가 언락된다",
+          "이 장신구를 소지하고 있을때 The Lost로 부활한 후 사라진다",
+          "부활 순서는 시스템 문서 아이템 우선순위 문단 참고",
+          "The Lost로 부활 후 특정 보스를 처치함으로써 해금되는 도전 과제는 전부 'The Lost'로 플레이한 것으로 간주된다",
+          "단 Victory Lap이나 Rerun시 그리고 도전모드 도전중에는 로스트 언락이 불가능하다"
+        ],
+        "version": "rebirth"
+      },
+      "24": {
+        "color": "",
+        "name": "Butt Penny (똥전)",
+        "id": "24",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "동전을 먹으면 적을 밀어내는 무해한 방귀를 뀐다"
+        ],
+        "version": "rebirth"
+      },
+      "25": {
+        "color": "",
+        "name": "Mysterious Candy (이상한 초콜릿)",
+        "id": "25",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "최대 30초 이내로 랜덤하게 캐릭터가 있는 자리에다 똥을 생성한다"
+        ],
+        "version": "rebirth"
+      },
+      "26": {
+        "color": "",
+        "name": "Hook Worm (꺾기 벌레)",
+        "id": "26",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "눈물의 거리가 10 증가한다",
+          "눈물이 90도로 각져서 지그재그로 날아간다",
+          "눈물의 거리가 증가해도 지그재그로 이동하기때문에 실제로는 눈물의 최종거리는 변함이 없다"
+        ],
+        "version": "rebirth"
+      },
+      "27": {
+        "color": "",
+        "name": "Whip Worm (채찍 벌레)",
+        "id": "27",
+        "unlock": [
+          "-"
+        ],
+        "description": [
+          "샷 스피드가 0",
+          "5 증가한다",
+          "때문에 사거리가 늘어난 것처럼 보인다"
+        ],
+        "version": "rebirth"
+      },
+      "28": {
+        "color": "",
+        "name": "Broken Ankh (부서진 앙크)",
+        "id": "28",
+        "unlock": [
+          "Lazarus 캐릭터로 Sheol 스테이지의 보스 Satan 클리어"
+        ],
+        "description": [
+          "캐릭터가 사망시 22",
+          "22% 확률로 Ankh의 효과가 발동될 확률이 생긴다",
+          "부활하면 ???캐릭터로 부활하게 되며 이후의 체크리스트는 ???로 적용된다",
+          "이 장신구는 럭 수치의 영향을 받지 않는다"
+        ],
+        "version": "rebirth"
+      },
+      "62": {
+        "color": "",
+        "name": "Shiny Rock (빛나는 돌)",
+        "id": "62",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "x가 표시된 바위나 레트로 보물방 입구를 가리는 돌이 현재 방에 있을때 10초마다 흰색으로 반짝인다"
+        ],
+        "version": "afterbirth"
+    },
+    "63": {
+        "color": "",
+        "name": "Safety Scissors (안전 가위)",
+        "id": "63",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "트롤 폭탄과 슈퍼 트롤 폭탄이 터질듯 하다가 마지막에 픽업아이템인 폭탄과 1+1폭탄으로 변한다"
+        ],
+        "version": "afterbirth"
+    },
+    "64": {
+        "color": "",
+        "name": "Rainbow Worm (무지개 벌레)",
+        "id": "64",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "장신구를 획득한 순간부터 3초마다 눈물 공격시 worm 장신구들의 효과가 나타난다",
+            "Pulse Worm, Ring Worm, Tape Worm, Whip Worm, Wiggle Worm, Flat Worm, Hook Worm, Lazy Worm순서대로 돌아가면서 변한다"
+        ],
+        "version": "afterbirth"
+    },
+    "65": {
+        "color": "",
+        "name": "Tape Worm (테이프 벌레)",
+        "id": "65",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "사거리가 현재의 두배가 되고 눈물의 높이가 절반으로 줄어든다",
+            "아자젤이 이걸 가지고 있으면 사거리가 많이 늘어나며 더 포가튼이 가지고 있으면 뼈다귀를 휘두른 후 검기가 캐릭터 한참 앞에 생성된다"
+        ],
+        "version": "afterbirth"
+    },
+    "66": {
+        "color": "",
+        "name": "Lazy Worm (게으른 벌레)",
+        "id": "66",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "눈물의 속도가 0",
+            "4 감소하고 사거리가 4, 눈물 높이가 2 증가한다",
+            "눈물의 속도가 낮은 점 때문에 유도성 눈물을 가지고 있을 경우 명중률이 높아진다"
+        ],
+        "version": "afterbirth"
+    },
+    "67": {
+        "color": "",
+        "name": "Cracked Dice (갈라진 주사위)",
+        "id": "67",
+        "unlock": [
+            "??? 캐릭터로 Greed Mode의 최종 보스 Ultra Greed 클리어"
+        ],
+        "description": [
+            "피격시 D6, D8, D12, D20 중 하나를 발동할 확률이 생긴다",
+            "그리드 모드에서나 헌혈기 등이 있을때 효과가 좋다"
+        ],
+        "version": "afterbirth"
+    },
+    "68": {
+        "color": "",
+        "name": "Super Magnet (슈퍼 자석)",
+        "id": "68",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "모든 픽업 아이템과 적이 느리게 끌려온다",
+            "픽업 아이템은 구덩이나 장애물이 있어도 무시하고 끌려오지만 열쇠 블록은 통과하지 못한다",
+            "하트류는 회복이나 추가될 체력이 없다면 끌려 오지 않는다",
+            "울트라 그리드 보스에서 문들이 이 장신구의 영향을 받는다",
+            "장신구는 끌려 오지 않는다"
+        ],
+        "version": "afterbirth"
+    },
+    "69": {
+        "color": "",
+        "name": "Faded Polaroid (흐려진 폴라로이드)",
+        "id": "69",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "때때로 아이작이 보호색을 띄면서, 방 안의 모든 적에게 혼란 상태이상 효과를 부여한다",
+            "[23] 혼란은 투명해 질때만 적용 되므로, 그 후에 소환된 몹에겐 혼란이 적용 되지 않는다"
+        ],
+        "version": "afterbirth"
+    },
+    "70": {
+        "color": "",
+        "name": "Louse (이)",
+        "id": "70",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "적이 있는 방에 있을 때 확률적으로 아군 거미가 생성된다"
+        ],
+        "version": "afterbirth"
+    },
+    "71": {
+        "color": "",
+        "name": "Bob's Bladder (밥의 방광)",
+        "id": "71",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "폭탄이 녹색 크립을 남겨 적을 중독시킨다",
+            "폭발하면 크립이 잠시후 사라진다"
+        ],
+        "version": "afterbirth"
+    },
+    "72": {
+        "color": "",
+        "name": "Watch Battery (손목시계용 전지)",
+        "id": "72",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "방 클리어시 배터리 픽업 아이템이 등장할 확률이 6",
+            "67% 올라가며, 액티브 아이템의 충전 게이지를 추가로 한칸 더 채울 확률이 5% 생긴다",
+            "상자나 자루등 랜덤으로 픽업이 떨어지는 아이템에서 배터리가 나올 확률이 2% 증가한다"
+        ],
+        "version": "afterbirth"
+    },
+    "73": {
+        "color": "",
+        "name": "Blasting Cap (폭파용 뇌관)",
+        "id": "73",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "폭탄이 터질때 아주 적은 확률로 또 다른 픽업용 폭탄이 나올 확률이 생긴다",
+            "황금 폭탄을 이용하여 무한 파밍이 가능하다"
+        ],
+        "version": "afterbirth"
+    },
+    "74": {
+        "color": "",
+        "name": "Stud Finder (벽체 탐지기)",
+        "id": "74",
+        "unlock": [
+            "챌린지(도전 모드) 27번 Brains! 클리어"
+        ],
+        "description": [
+            "돌을 부술 때 레트로 보물방으로 들어갈 수 있는 문을 만들 확률이 생긴다"
+        ],
+        "version": "afterbirth"
+    },
+    "75": {
+        "color": "",
+        "name": "Error (오류)",
+        "id": "75",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "방마다 다른 종류의 장신구의 효과가 적용된다",
+            "결정된 장신구는 방마다 '귀속' 되어 있어 다른 방에 나갔다 들어와도 해당 방에서 결정된 장신구의 효과가 바뀌지는 않는다",
+            "예를 들어, 만약 상점에서 Store Credit 장신구의 효과가 적용된다면 그 상점을 공짜로 털어먹을 수 있다",
+            "Restock과 Chaos와 함께라면 게임을 터트릴 수도 있다 Monkey Paw가 적용된 방은 손가락이 접히지 않으므로 무한정 가능하다",
+            "Tick이 적용된 방은 장신구를 교체할 수 없다",
+            "Walnut이 적용된 방은 계속 폭발 피격하다보면 픽업템들을 얻을 수 있다"
+        ],
+        "version": "afterbirth"
+    },
+    "76": {
+        "color": "",
+        "name": "Poker Chip (포커 칩)",
+        "id": "76",
+        "unlock": [
+            "챌린지(도전 모드) 26번 I RULE! 클리어"
+        ],
+        "description": [
+            "50대 50의 확률로 상자에서 픽업 보상이 더 많이 나오거나 보상이 안나오고 빨간 파리 하나가 튀어나온다"
+        ],
+        "version": "afterbirth"
+    },
+    "77": {
+        "color": "",
+        "name": "Blister (물집)",
+        "id": "77",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "눈물의 넉백을 증가시킨다",
+            "눈물이 아닌 공격 수단의 경우(혈사, 칼 등)에도 적을 넉백시킨다"
+        ],
+        "version": "afterbirth"
+    },
+    "78": {
+        "color": "",
+        "name": "Second Hand (초침)",
+        "id": "78",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "적에게 걸린 상태이상 효과의 지속시간을 두 배로 증가시킨다"
+        ],
+        "version": "afterbirth"
+    },
+    "79": {
+        "color": "",
+        "name": "Endless Nameless (엔들리스 네임리스)",
+        "id": "79",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "카드나 알약같은 소모품을 사용했을때, 확률적으로 같은 타입의 픽업이 생성된다"
+        ],
+        "version": "afterbirth"
+    },
+    "80": {
+        "color": "",
+        "name": "Black Feather (검은 깃털)",
+        "id": "80",
+        "unlock": [
+            "Eve 캐릭터로 Greed Mode의 최종 보스 Ultra Greed 클리어"
+        ],
+        "description": [
+            "해당 아이템을 소유하고 있으면 개당 0",
+            "2씩 데미지가 올라간다",
+            "-해당 아이템"
+        ],
+        "version": "afterbirth"
+    },
+    "81": {
+        "color": "",
+        "name": "Blind Rage (눈 먼 분노)",
+        "id": "81",
+        "unlock": [
+            "Samson 캐릭터로 ??? 스테이지의 보스 Hush 클리어"
+        ],
+        "description": [
+            "피격후 무적시간이 증가한다",
+            "최대 헌혈기에는 두번 악마거지에게는 최대 세번 기부할 수 있다"
+        ],
+        "version": "afterbirth"
+    },
+    "82": {
+        "color": "",
+        "name": "Golden Horse Shoe (황금 말굽)",
+        "id": "82",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "습득 후 다음 층부터 15%의 확률로 보물방에 하나만 고를 수 있는 선택형 아이템이 두 개 배치된다"
+        ],
+        "version": "afterbirth"
+    },
+    "83": {
+        "color": "",
+        "name": "Store Key (상점 열쇠)",
+        "id": "83",
+        "unlock": [
+            "그리드모드의 그리드머신에 666원을 기부"
+        ],
+        "description": [
+            "들고 있는 동안 모든 상점 문을 열 때 열쇠를 소모하지 않는다",
+            "다만 Pay To Play를 먹었을 경우에는 효과가 없다",
+            "Keeper 캐릭터로 Sheol 스테이지의 보스 Satan을 클리어하면 앞으로 Keeper 캐릭터가 이 장신구를 가지고 게임을 시작한다"
+        ],
+        "version": "afterbirth"
+    },
+    "84": {
+        "color": "",
+        "name": "Rib of Greed (탐욕의 늑골)",
+        "id": "84",
+        "unlock": [
+            "Keeper 캐릭터로 Greed Mode의 최종 보스 Ultra Greed 클리어"
+        ],
+        "description": [
+            "상점과 비밀방에서 Greed 미니보스와 Super Greed 미니보스가 등장하지 않게 된다",
+            "이미 Greed 미니보스와 Super Greed 미니보스드를 퇴치한 후여도 이 장신구를 획득하고 다시 가보면 본래의 상점이나 비밀방으로 돌아온다",
+            "방클리어 시, 하트의 드랍 확률을 조금 줄이고, 동전의 드랍 확률이 오른다"
+        ],
+        "version": "afterbirth"
+    },
+    "85": {
+        "color": "",
+        "name": "Karma (업보)",
+        "id": "85",
+        "unlock": [
+            "Keeper 캐릭터로 Dark Room 스테이지의 보스 The Lamb 클리어"
+        ],
+        "description": [
+            "기부 기계에 기부할 때 마다 하트 한칸을 회복하거나 거지가 소환될 확률이 생긴다",
+            "기부 기계에 기부할 때의 행운 수치가 올라갈 확률이 살짝 증가한다"
+        ],
+        "version": "afterbirth"
+    },
+    "86": {
+        "color": "",
+        "name": "Lil Larva (리틀 라바)",
+        "id": "86",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "똥이 파괴될때마다, 파란 파리들이 생성된다",
+            "아쉽게도, 붉은 똥에서는 파란 파리가 생성되지 않는다"
+        ],
+        "version": "afterbirth"
+    },
+    "87": {
+        "color": "",
+        "name": "Mom's Locket (엄마의 로켓[27])",
+        "id": "87",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "열쇠를 소모할 때마다 하트 반칸의 체력이 회복된다",
+            "빨간하트 반칸 픽업템은 전부 1칸짜리 하트로 바뀐다",
+            "골든키를 가지고 있으면 이 장신구가 동작하지 않으므로 주의",
+            "Keeper 캐릭터의 체력도 회복시킬 수 있다"
+        ],
+        "version": "afterbirth"
+    },
+    "88": {
+        "color": "",
+        "name": "NO! (아니! 필요없어)",
+        "id": "88",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "들고 있는 동안 아이템 배열에서 액티브 아이탬이 99%의 확률로 나오지 않게 된다",
+            "(황금&악마&천사&상점) 단 Rosary를 먹은 후 배열에 추가되어 나오는 The Bible은 예외다",
+            "패시브 아이템 배열이 소모되면 액티브 아이템 배열이 나오게 된다",
+            "물론 무조건 나오지는 않고 확률은 그대로 99%는 Breakfast가 나온다",
+            "이 장신구에 영향을 받지 않는것은 전 배열이 액티브 아이템인 책으로 되어있는 책방, 헌혈기계(IV Bag), 특정 보스 또는 미니보스를 잡아서 나올수 있는 액티브 아이템(예 : 악마방의 크람푸스)등이 있다",
+            "[전체목록]"
+        ],
+        "version": "afterbirth"
+    },
+    "89": {
+        "color": "",
+        "name": "Child Leash (미아 방지끈)",
+        "id": "89",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "패밀리어들 사이의 거리를 상당히 좁혀준다"
+        ],
+        "version": "afterbirth"
+    },
+    "90": {
+        "color": "",
+        "name": "Brown Cap (갈색 마개)",
+        "id": "90",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "똥을 파괴할 경우 폭발한다",
+            "붉은똥은 폭발하지 않는다"
+        ],
+        "version": "afterbirth"
+    },
+    "91": {
+        "color": "",
+        "name": "Meconium",
+        "id": "91",
+        "unlock": [
+            "??? 캐릭터로 Greedier Mode의 최종 보스 Ultra Greedier 클리어"
+        ],
+        "description": [
+            "새로운 방에 입장시 기존 똥들이 똥을 부수면 적에게 소량의 대미지와 혼란을 주는 검은색 똥으로 대체 등장할 확률이 상승한다",
+            "똥이 없는 방이나 처음부터 검은똥으로 있는 방에는 추가 생성되지 않으며 Re-lax 알약이나 D12 액티브 아이템 등으로 인해 똥이 추가 생성될 때만 확률적으로 대체된다",
+            "참고로 자연적으로 생성된 빨간 똥도 이 장신구의 효과를 받는다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "92": {
+        "color": "",
+        "name": "Cracked Crown",
+        "id": "92",
+        "unlock": [
+            "날짜와 상관없이 데일리 챌린지 5연속으로 승리하기[30]"
+        ],
+        "description": [
+            "눈물 크기가 0",
+            "2 증가하고 눈물 딜레이가 20% 감소한다",
+            "탄속, 거리, 이속, 데미지가 각 캐릭터의 기본 능력치보다 높아야만 장신구 능력이 발동 된다",
+            "능력치 발동시 현재 가진 최종 스텟에서 약 33%정도 상승한다",
+            "Luck스탯은 영향을 미치지 않으며 캐릭터의 기본스탯 이하의 스탯일때는 그 스탯만 장신구의 영향을 받지 않는다",
+            "이 장신구로 상승하는 능력치 중 눈물 딜레이는 Cancer 장신구처럼 한계 수치를 내릴 수 있다",
+            "데일리 챌린지를 연속으로 승리해야하는 조건 때문에 은근 언락하기 어렵다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "93": {
+        "color": "",
+        "name": "Used Diaper",
+        "id": "93",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "장신구를 가지고 있을때 방에 입장시 일정 확률로 Skatole의 효과가 적용된다",
+            "효과가 발동되면 Ring Fly, Dart Fly, Attack Fly는 그 즉시 검은 파리로 변하고 Pooter, Super Pooter는 발포를 멈춘다",
+            "Boom Fly는 천천히 움직인다",
+            "파리들이 있어도 장신구를 내려놓았다가 다시 집어서 확률상 효과를 발동시킬수 있으며 발동된 상태에서 내려놓을경우 Pooter계열을 다시 발포를 시작하고 Boom Fly는 이동 속도가 원래대로 돌아온다",
+            "한번 변한 검은 파리들은 다시 원복하지 않는다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "94": {
+        "color": "",
+        "name": "Fish Tail",
+        "id": "94",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "파리나 거미를 생성하는 아이템이나 장신구의 생성량이 2배가 된다",
+            "그런데 의외로 여기 해당하는 아이템 또는 장신구가 적은데, 적용되지 않거나 일부만 적용되는 아이템은 주요 시너지 효과 참고"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "95": {
+        "color": "",
+        "name": "Black Tooth",
+        "id": "95",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "공격 시 일정확률로 적을 중독시키는 검은 이빨이 발사된다",
+            "검은 이빨의 데미지는 현재 눈물 데미지의 2배이다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "96": {
+        "color": "",
+        "name": "Ouroboros Worm (우주 뱀 벌레)",
+        "id": "96",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "눈물거리 4증가, 눈물 높이 2 증가한다",
+            "눈물이 거대한 나선을 그리며 날아간다",
+            "그리고 눈물이 장애물을 관통하게 된다",
+            "생각보다 컨트롤이 어려워서 사용하기 힘든 장신구이다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "97": {
+        "color": "",
+        "name": "Tonsil (편도선)",
+        "id": "97",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "피격 시 일정 확률로 Tonsil이 뒤에 따라붙고, 적의 발사체를 막는다",
+            "이 아이템이 발동되기 위한 평균 피격은 약 16번 정도 걸린다",
+            "총 두번 적용되며 두번 다 생성되면 해당 장신구는 사라진다",
+            "유일하게 장신구를 사용하여 얻을 수 있는 패시브 아이템(ID 474)으로 D4계열로도 절대 얻을 수 없다",
+            "때문에 도감이나 도전과제를 채우다가 유독 이 패시브 아이템만 안보여서 어떻게 얻는건지 검색하는 사람들이 많다",
+            "기본 언락된 장신구기 때문에 운좋게 얻어걸리거나 에덴으로 시작시 확률적으로 가지고 있어야 한다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "98": {
+        "color": "",
+        "name": "Nose Goblin (콧물 점액)",
+        "id": "98",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "공격 시 일정확률로 적에게 달라붙어 중독시키는 눈물을 발사한다",
+            "하나의 적에게 여러개 부착할 수 있으며 부착시 개당 60초까지 또는 적이 죽을때까지 초당 한번 캐릭터의 현재 공격력 만큼 데미지를 입힌다",
+            "행운 수치의 영향을 받지 않는다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "99": {
+        "color": "",
+        "name": "Super Ball (통통볼)",
+        "id": "99",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "공격 시 일정확률로 벽이나 적에 튕겨져 나오는 눈물을 발사한다",
+            "Rubber Cement와 비슷하지만 Brimstone과 Technology와는 시너지가 없다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "100": {
+        "color": "",
+        "name": "Vibrant Bulb (선명한 전구)",
+        "id": "100",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "가지고 있는 액티브 아이템의 충전량이 최대치일 때만 스탯들이 증가한다",
+            "상승하는 스탯은 이동속도 +0",
+            "25, 공격거리 +0",
+            "75, 눈물 딜레이 +0",
+            "20, 탄속 +0",
+            "1, 데미지 +0",
+            "5, 럭 +1",
+            "액티브 아이템이 없다면 스탯이 오르지 않으며 충전량이 없는 아이템을 들고 있어도 효과가 생긴다",
+            "이 때 Dim Bulb와 같이 들고 있으면 둘다 효과를 받는다",
+            "완충이 덜된 아이템에서 충전이 아예 없는 아이템으로 변환하면 해당 효과가 생기지 않는 버그가 가끔 있는데 장신구를 내려놓았다가 다시 집으면 해결된다",
+            "School Bag 보유시 첫번째 슬롯의 액티브 아이템의 충전 게이지에만 영향을 받는다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "101": {
+        "color": "",
+        "name": "Dim Bulb",
+        "id": "101",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "가지고 있는 액티브 아이템의 충전량이 0일 때만 스탯들이 증가한다",
+            "상승하는 스탯은 이동속도 +0",
+            "5, 공격거리 +1",
+            "5, 눈물 딜레이 +0",
+            "40, 탄속 +0",
+            "3, 데미지 +1",
+            "5, 럭 +2",
+            "충전량이 0으로 되어있을때가 많지 않다보니 스탯 상승폭은 Vibrant Bulb보다 증가치가 높다",
+            "액티브 아이템이 없다면 스탯이 오르지 않으며 충전량이 없는 아이템을 들고 있어도 효과가 생긴다",
+            "이 때 Vibrant Bulb와 같이 들고 있으면 둘다 효과를 받는다",
+            "School Bag 보유시 첫번째 슬롯의 액티브 아이템의 충전 게이지에만 영향을 받는다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "102": {
+        "color": "",
+        "name": "Fragmented Card (조각난 카드)",
+        "id": "102",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "소지하고 있을때 그 다음 층부터 비밀방을 두 개로 만든다",
+            "소지하고 내려가면 버리더라도 그 층의 비밀방이 사라지진 않는다",
+            "Forget Me Now 효과가 발동되면 현재층에도 비밀방이 2개가 발생한다",
+            "일급비밀방은 해당없음"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "103": {
+        "color": "",
+        "name": "Equality! (똑같아!)",
+        "id": "103",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "가지고 있는 픽업아이템들의 수가 모두 같을때 나오는 픽업아이템들이 1+1로 두개 붙어서 나온다",
+            "조건만 맞으면 현재 있는 픽업 아이템들도 즉시 효과를 보게 되며 붙어서 나온 템은 장신구 효과가 해제되어도 다시 하나로 되돌아가지 않는다",
+            "상점류에서 이 효과가 새로 발동될 경우 열쇠, 하트, 폭탄 픽업의 가격이 즉시 무료화 된다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "104": {
+        "color": "",
+        "name": "Wish Bone",
+        "id": "104",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "피격 시 일정 확률로 장신구가 파괴되고 현재방에 맞는 배열의 랜덤 아이템이 하나 나온다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "105": {
+        "color": "",
+        "name": "Bag Lunch (점심 도시락)",
+        "id": "105",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "피격 시 일정 확률로 장신구가 파괴되고 Lunch가 나온다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "106": {
+        "color": "",
+        "name": "Lost Cork (잃어버린 코르크)",
+        "id": "106",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "아이작이 생성하는 장판류의 범위가 크게 늘어난다",
+            "Lemon party알약은 한가운데쓰면 거의 1*1방을 뒤덮는다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "107": {
+        "color": "",
+        "name": "Crow Heart",
+        "id": "107",
+        "unlock": [
+            "Eve 캐릭터로 Greedier 모드의 최종 보스 Ultra Greedier 클리어"
+        ],
+        "description": [
+            "피격 시 소울하트나 블랙하트 대신 빨간하트가 먼저 소모되게 된다",
+            "이것 때문에 소울하트가 있어도 피격되면 악마방 등장확률이 감소한다",
+            "하지만 뼈하트의 경우 안의 빨간하트가 소모되어도 뼈하트는 소모되지 않기 때문에 더 포가튼 한정으로는 매우 좋은 장신구",
+            "단, 빨간하트가 총 반칸만 남았다면 피격시 뼈하트가 순차대로 파괴되니 주의"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "108": {
+        "color": "",
+        "name": "Walnut (호두)",
+        "id": "108",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "폭발로 인한 피격 시 일정 확률로 장신구가 파괴되고 동전, 하트, 열쇠, 랜덤 장신구 중 일부가 드랍된다",
+            "일반 피격으로는 장신구 효과가 발동되지 않으니 주의"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "109": {
+        "color": "",
+        "name": "Duct Tape (덕 테이프)",
+        "id": "109",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "패밀리어들의 움직임을 멈춘다",
+            "장신구를 버리면 다시 움직이지만 줏으면 멈춘다",
+            "멈추는 위치는 줍는 시점에서 고정되며 떨어뜨렸다가 다시 주우면 패밀리어들의 위치를 옮길 수 있다",
+            "일부 패밀리어는 영향을 받지 않는다",
+            "주요 시너지 효과 항목 참고"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "110": {
+        "color": "",
+        "name": "Silver Dollar",
+        "id": "110",
+        "unlock": [
+            "Cain 캐릭터로 Void 스테이지의 보스 Delirium 클리어"
+        ],
+        "description": [
+            "Chapter3(The Depths, Necropolis, Dank Depths)에서 이 장신구를 소지한채로 진행하면 다음층인 Chapter4(Womb, Utero, Scarred Womb)에서 상점이 생긴다",
+            "[31] 소지하고 내려간 층에서 버리더라도 그 층의 상점이 사라지진 않는다",
+            "Forget Me Now 등으로 스테이지를 재시작 했을 때에도 상점이 생성된다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "111": {
+        "color": "",
+        "name": "Bloody Crown",
+        "id": "111",
+        "unlock": [
+            "Samson 캐릭터로 Void 스테이지의 보스 Delirium 클리어"
+        ],
+        "description": [
+            "Chapter3(The Depths, Necropolis, Dank Depths)에서 이 장신구를 소지한채로 진행하면 다음층인 Chapter4(Womb, Utero, Scarred Womb)에서 보물방이 생긴다",
+            "[32] 소지하고 내려간 층에서 버리더라도 그 층의 보물방이 사라지진 않는다",
+            "Forget Me Now 등으로 스테이지를 재시작 했을 때에도 보물방이 생성된다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "112": {
+        "color": "",
+        "name": "Pay to Win(부분 유료)",
+        "id": "112",
+        "unlock": [
+            "-"
+        ],
+        "description": [
+            "이 장신구를 소치한채로 다음층에 갈때 보물방 계열에 Restock! 효과를 지닌 기부함이 등장한다",
+            "허쉬의 양쪽 보물방에는 효과가 없다",
+            "그리드 모드에선 보물방, 은색 보물방 둘 다 효과가 적용된다",
+            "소지하고 내려간 층에서 버리더라도 그 층의 Restock 기계가 사라지진 않는다",
+            "Forget Me Now 등으로 스테이지를 재시작 했을 때에도 Restock 기계가 생성된다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "113": {
+        "color": "",
+        "name": "Locust of War",
+        "id": "113",
+        "unlock": [
+            "Apollyon 캐릭터로 Chathedral 스테이지의 보스 Isaac 클리어"
+        ],
+        "description": [
+            "적이 있는 방에 입장하면, 폭발하는 오렌지색 파리가 생성된다",
+            "이 파리의 데미지는 캐릭터의 공격력의 두배의 피해를 주며 접촉시 폭발 공격력은 60이다",
+            "보스 러쉬에선 매 웨이브마다 생성된다",
+            "폭발이란 효과 때문에 폭발 면역이 없을시 캐릭터도 피격을 당하기 쉬우니 주의",
+            "대부분의 폭탄효과에 영향 받는다",
+            "부스터팩 #3 이전에는 Locust Of Wrath 라는 이름이였다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "114": {
+        "color": "",
+        "name": "Locust of Pestilence",
+        "id": "114",
+        "unlock": [
+            "Apollyon 캐릭터로 Sheol 스테이지의 보스 Satan 클리어"
+        ],
+        "description": [
+            "적이 있는 방에 입장하면, 적에게 중독을 거는 초록색 파리가 생성된다",
+            "이 파리의 데미지는 캐릭터의 공격력의 두배의 피해를 준다",
+            "보스 러쉬에선 매 웨이브마다 생성된다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "115": {
+        "color": "",
+        "name": "Locust of Famine (기근의 매뚜기)",
+        "id": "115",
+        "unlock": [
+            "Apollyon 캐릭터로 The Chest 스테이지의 보스 ??? 클리어"
+        ],
+        "description": [
+            "적이 있는 방에 입장하면, 적에게 둔화를 거는 노란색 파리가 생성된다",
+            "이 파리의 데미지는 캐릭터의 공격력의 두배의 피해를 준다",
+            "보스 러쉬에선 매 웨이브마다 생성된다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "116": {
+        "color": "",
+        "name": "Locust of Death",
+        "id": "116",
+        "unlock": [
+            "Apollyon 캐릭터로 Dark Room 스테이지의 보스 The Lamb 클리어"
+        ],
+        "description": [
+            "적이 있는 방에 입장하면, 높은 데미지를 2번 주는 검은색 파리가 생성된다",
+            "이 파리의 데미지는 캐릭터의 공격력의 네배의 피해를 두번 준다",
+            "메인 메뉴로 나가고 컨티뉴 하기를 계속할때마다 파리가 증식된다",
+            "보스 러쉬에선 매 웨이브마다 생성된다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "117": {
+        "color": "",
+        "name": "Locust of Conquest (정복의 메뚜기)",
+        "id": "117",
+        "unlock": [
+            "Apollyon 캐릭터로 Boss Rush 클리어"
+        ],
+        "description": [
+            "적이 있는 방에 입장하면, 적에게 데미지를 입히는 2~5마리의 하얀색 파리가 생성된다",
+            "이 파리의 데미지는 캐릭터의 공격력의 두배의 피해를 준다",
+            "보스 러쉬에선 매 웨이브마다 생성된다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "118": {
+        "color": "",
+        "name": "Bat Wing",
+        "id": "118",
+        "unlock": [
+            "Azazel 캐릭터로 Greedier 모드의 최종 보스 Ultra Greedier 클리어"
+        ],
+        "description": [
+            "적이 있는 방에서 적을 잡을때마다 일정 확률로 그 방 한정으로 비행능력이 생긴다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "119": {
+        "color": "",
+        "name": "Stem Cell",
+        "id": "119",
+        "unlock": [
+            "Samson 캐릭터로 Greedier 모드의 최종 보스 Ultra Greedier 클리어"
+        ],
+        "description": [
+            "다음 층으로 내려갈 때마다 빨간하트를 반 칸 회복한다",
+            "1층마다 겨우 빨간하트 반 칸이고 Maggy's Bow의 효과도 적용되지 않으므로 체력이 정말로 필요하지 않는 한 실용성은 거의 없다",
+            "그래도 탯줄만큼 답이 없지는 않다"
+        ],
+        "version": "afterbirth_plus"
+    },
+    "120": {
+        "color": "",
+        "name": "Hairpin (머리핀)",
+        "id": "120",
+        "unlock": [
+            "Lil Battery 픽업 아이템으로 액티브 아이템의 충전 게이지 20회 충전"
+        ],
+        "description": [
+            "보스 방 진입 시 액티브 아이템의 충전 게이지를 전부 채워준다",
+            "[33] 단 이 효과는 Little Battery 한개 먹은 효과랑 비슷하게 1차 충전 게이지가 채워지지 않았을때는 The Battery를 가지고 있어도 단번에 2차 충전 게이지까지 채워주지는 않는다",
+            "또 보스방에서 이미 효과를 본 경우 텔레포트등을 통해 두번째로 방문했을땐 발동되지 않는다",
+            "그리드 모드에선 적용되지 않는다"
+        ],
+        "version": "booster_pack"
+    },
+    "121": {
+        "color": "",
+        "name": "Wooden Cross (나무 십자가)",
+        "id": "121",
+        "unlock": [
+            "침대 1회 사용"
+        ],
+        "description": [
+            "매 층마다 Holy Mantle의 효과를 가진 보호막이 생성된다",
+            "이 보호막은 Holy Mental보다 우선시되는데 피격되어 사라진 보호막은 다른 방에 가도 재생성되지 않으며 이는 The Lost도 마찬가지이므로 주의"
+        ],
+        "version": "booster_pack"
+    },
+    "122": {
+        "color": "",
+        "name": "Butter!",
+        "id": "122",
+        "unlock": [
+            "Victory Lap 3회차 진입"
+        ],
+        "description": [
+            "액티브 아이템 사용 시 해당 액티브 아이템 효과를 발동시킨 후 주위에 내려놓는다",
+            "이 장신구를 가진 상태로 캐릭터가 데미지를 입을때 2% 확률로 패시브 아이템도 내려놓는다"
+        ],
+        "version": "booster_pack"
+    },
+    "123": {
+        "color": "",
+        "name": "Filigree Feather (세공 깃털)",
+        "id": "123",
+        "unlock": [
+            "한 게임에 Key Pieces 12를 모두 획득"
+        ],
+        "description": [
+            "가지고 있을 시 천사가 죽을 때 열쇠 조각 대신 다른 아이템을 내놓는다",
+            "Key Piece 1 혹은 2를 소유하고 있어도 이 장신구가 있다면 다른 아이템을 내놓는다",
+            "천사상이 두 개 있을 땐 하나씩 부수고 진행해야 온전하게 두 아이템을 얻을 수 있다"
+        ],
+        "version": "booster_pack"
+    },
+    "124": {
+        "color": "",
+        "name": "Door Stop (고정목)",
+        "id": "124",
+        "unlock": [
+            "문이나 비밀방들의 벽을 폭탄으로 50회 파괴"
+        ],
+        "description": [
+            "적이 있는 방에 입장하면, 들어온 문이 닫히지 않고 열려있게 된다",
+            "이는 보스방, 크람푸스 있는 악마방[35]도 해당된다",
+            "엄마방과 보스러쉬방에는 장신구가 발동되지 않는다",
+            "Locust 관련 장신구가 있을 경우 방을 왕복하는걸로 해당 장신구들의 파리들을 계속 소환할수 있다"
+        ],
+        "version": "booster_pack"
+    },
+    "125": {
+        "color": "",
+        "name": "Extension Cord(연장 코드)",
+        "id": "125",
+        "unlock": [
+            "The Battery9 Volt",
+            "Car Battery 획득[36]"
+        ],
+        "description": [
+            "캐릭터와 패밀리어 사이에 데미지 6의 황색 전류를 주고 받는다",
+            "황색전류는 거리나 오브젝트 제한이 없으며 그 일직선상사이에 있는 적들은 전류 공격을 받는다",
+            "패밀리어가 많을수록 생겨난 패밀리어 순으로 전류를 주고 받는다",
+            "액티브 아이템에 의해 생겨난 패밀리어 또한 전류를 거쳐가는 대상이 된다",
+            "단 패밀리어수가 많다고 데미지나 전류 횟수가 늘어나거나 하진 않는다",
+            "The Forgotten 캐릭터의 영혼도 패밀리어 처럼 취급 받아 전류를 주고 받는다",
+            "Mom's Box의 영향을 받지 않는다"
+        ],
+        "version": "booster_pack"
+    },
+    "126": {
+        "color": "",
+        "name": "Rotten Penny(썩은 동전)",
+        "id": "126",
+        "unlock": [
+            "푸른색 아군 파리를 한게임에 20마리 이상 소유"
+        ],
+        "description": [
+            "동전을 획득할 때 마다 아군 파리를 1마리씩 생성한다"
+        ],
+        "version": "booster_pack"
+    },
+    "127": {
+        "color": "",
+        "name": "Baby-Bender",
+        "id": "127",
+        "unlock": [
+            "유도 효과 2회 중첩[37]"
+        ],
+        "description": [
+            "패밀리어들에게 유도 눈물 효과를 부여한다",
+            "당연히 Lilith가 기본으로 소유하는 인큐버스에도 적용된다"
+        ],
+        "version": "booster_pack"
+    },
+    "128": {
+        "color": "",
+        "name": "Finger Bone",
+        "id": "128",
+        "unlock": [
+            "The Forgotten 캐릭터로 Greed Mode의 최종 보스 Ultra Greed 클리어"
+        ],
+        "description": [
+            "대미지를 입을 때 2% 확률로 뼈 하트가 주변에 드랍된다"
+        ],
+        "version": "booster_pack"
+    }
+  }
