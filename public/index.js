@@ -54,13 +54,6 @@ window.onload = function () {
         tab_content_item_type[key].element.appendChild(create_item_content);
     }
 
-    setTimeout(() => {
-        window.open('/popup/ttoli', '_blank', 'width=1600, height=900');    
-    }, 1000);
-    
-
-    // console.log(create_item_content);
-
     //처음 페이지 들어갈때 보여줄 데이터
     sendAjax("ajax_test", "all");
 
@@ -75,8 +68,6 @@ window.onload = function () {
     top_logo_img.addEventListener("mouseout", function (event) {
         event.target.src = "/static/img/home_icon.png";
     });
-
-
 
     data_processing();
 
@@ -168,9 +159,17 @@ window.onload = function () {
                 }
 
             }
-        }, 300);
+        }, 500);
     }
 
+    //스크롤 할때 
+    document.addEventListener('scroll', function() {
+        if(document.documentElement.scrollTop != 0) {
+            document.querySelector("#body-sidebar #content").style = "margin-top: -70px;"
+        } else {
+            document.querySelector("#body-sidebar #content").style = "margin-top: 0px;"
+        }
+    })
 
     //body content 안에 있는 tab의 버튼들을 클릭했을때 처리
     tabNavColors.forEach(function (item, index) {
