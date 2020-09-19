@@ -81,6 +81,7 @@ window.onload = function () {
                 let data_set_id = data_set_type[i].querySelectorAll("[data-id]");
 
                 for (let j = 0; j < data_set_id.length; j++) {
+                    //Run when clicked (클릭시 실행)
                     data_set_id[j].addEventListener("click", function () {
                         let type = data_set_type[i].dataset.type;
                         let id = data_set_id[j].dataset.id;
@@ -133,6 +134,8 @@ window.onload = function () {
                             createDescriptionBox.appendChild(createDescription);
                         }
                         
+                        sidebar_item_information.style.display = "block";
+
                         // 만약 전에 무언가의 데이터가 있다면 지워줌
                         while (sidebar_item_information.hasChildNodes()) {
                             sidebar_item_information.removeChild(sidebar_item_information.firstChild);
