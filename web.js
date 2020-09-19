@@ -40,7 +40,6 @@ const skeleton_isaac_version = {
     rebirth: null,
     afterbirth: null,
     afterbirth_plus: null,
-    // booster_pack: null
 };
 
 const isaac_items_json = {
@@ -65,6 +64,23 @@ for (let key_type in isaac_items_json) {
 isaac_items_json.other = {};
 isaac_items_json.other.card  = require(path_isaac.json + path_isaac.item_type.other + "/card.json")
 
+test_json = {
+    activated: null,
+    passive: null,
+    accessory: null
+}
+
+test_object = {
+    activated: null,
+    passive: null,
+    accessory: null
+}
+
+for(let key_type in test_json) {
+    test_json[key_type] = require(path_isaac.json + path_isaac.item_type[key_type] + "/all.json")
+}
+
+// console.log(test_json)
 let test_activated_data_json = require(path_isaac.json + path_isaac.item_type.activated + "/all.json")
 
 
@@ -74,10 +90,33 @@ for(let key_type in isaac_item_object) {
     }
 }
 
+
 isaac_item_object.other = {};
 isaac_item_object.other.card = JSON.parse(JSON.stringify(isaac_items_json.other.card));
 
 test_activated_data_object = JSON.parse(JSON.stringify(test_activated_data_json));
+
+test2_object = {
+    activated: copyObj(skeleton_isaac_version),
+    passive: copyObj(skeleton_isaac_version),
+    accessory: copyObj(skeleton_isaac_version)
+}
+
+test_object = {
+    activated: null,
+    passive: null,
+    accessory: null
+}
+
+for(let key_type in test2_object) {
+    
+}
+
+for(let key_data in test_activated_data_json) {
+    if(test_activated_data_json[key_data].version == 'original') {
+        test2_object.activated[key_data] = test_activated_data_json[key_data]
+    }
+}
 
 //json 합치는 모듈
 function jsonArrConcat(sourceObj) {
@@ -150,7 +189,7 @@ server.get('/popup/ttoli', function(req, res) {
 
 server.post('/ajax_test', function (req, res) {
     console.log("req.body.color: " + req.body.color);
-    let responseData = { signal: 'ok', color: req.body.color, test: test_activated_data_object};
+    let responseData = { signal: 'ok', color: req.body.color, test: test_activated_data_object, test_2: test2_object};
     
     //이미지 처리
     for (let key_type in isaac_item_object) {
@@ -192,7 +231,7 @@ server.post('/ajax_test', function (req, res) {
     }
 
     responseData.isaac_item = responseColor;
-
+    console.log(responseColor)
 
 
     res.json(responseData);

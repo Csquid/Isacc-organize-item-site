@@ -1,6 +1,6 @@
 {
     "29": {
-      "color": "",
+      "color": "green",
       "name": "Fish Head(물고기 머리)",
       "id": "29",
       "unlock": [
@@ -12,7 +12,7 @@
       "version": "expansion_pack"
     },
     "30": {
-      "color": "",
+      "color": "red",
       "name": "Pinky Eye(분홍 눈알)",
       "id": "30",
       "unlock": [
@@ -26,7 +26,7 @@
       "version": "expansion_pack"
     },
     "31": {
-      "color": "",
+      "color": "blue",
       "name": "Push Pin(압핀)",
       "id": "31",
       "unlock": [
@@ -39,7 +39,7 @@
       "version": "expansion_pack"
     },
     "32": {
-      "color": "",
+      "color": "black",
       "name": "Liberty Cap(환각 버섯)",
       "id": "32",
       "unlock": [
@@ -53,7 +53,7 @@
       "version": "expansion_pack"
     },
     "33": {
-      "color": "",
+      "color": "red",
       "name": "Umbilical Cord(탯줄)",
       "id": "33",
       "unlock": [
@@ -67,7 +67,7 @@
       "version": "expansion_pack"
     },
     "34": {
-      "color": "",
+      "color": "red",
       "name": "Child's Heart(아이의 심장)",
       "id": "34",
       "unlock": [
@@ -82,7 +82,7 @@
       "version": "expansion_pack"
     },
     "35": {
-      "color": "",
+      "color": "brown",
       "name": "Curved Horn(휜 뿔)",
       "id": "35",
       "unlock": [
@@ -99,7 +99,7 @@
       "version": "expansion_pack"
     },
     "36": {
-      "color": "",
+      "color": "brown",
       "name": "Rusted Key(녹슨 열쇠)",
       "id": "36",
       "unlock": [
@@ -112,7 +112,7 @@
       "version": "expansion_pack"
     },
     "37": {
-      "color": "",
+      "color": "black",
       "name": "Goat Hoof(염소 발굽)",
       "id": "37",
       "unlock": [
@@ -126,7 +126,7 @@
       "version": "expansion_pack"
     },
     "38": {
-      "color": "",
+      "color": "white",
       "name": "Mom's Pearl(엄마의 진주)",
       "id": "38",
       "unlock": [
@@ -139,7 +139,7 @@
       "version": "expansion_pack"
     },
     "39": {
-      "color": "",
+      "color": "black",
       "name": "Cancer(암)",
       "id": "39",
       "unlock": [
@@ -153,7 +153,7 @@
       "version": "expansion_pack"
     },
     "40": {
-      "color": "",
+      "color": "red",
       "name": "Red Patch(빨간 누더기)",
       "id": "40",
       "unlock": [
@@ -167,7 +167,7 @@
       "version": "expansion_pack"
     },
     "41": {
-      "color": "",
+      "color": "red",
       "name": "Match Stick(성냥개비)",
       "id": "41",
       "unlock": [
@@ -182,7 +182,7 @@
       "version": "expansion_pack"
     },
     "42": {
-      "color": "",
+      "color": "red",
       "name": "Lucky Toe(행운의 발가락)",
       "id": "42",
       "unlock": [
@@ -196,7 +196,7 @@
       "version": "expansion_pack"
     },
     "43": {
-      "color": "",
+      "color": "white",
       "name": "Cursed Skull(저주받은 해골)",
       "id": "43",
       "unlock": [
@@ -210,7 +210,7 @@
       "version": "expansion_pack"
     },
     "44": {
-      "color": "",
+      "color": "white",
       "name": "Safety Cap(안전 마개)",
       "id": "44",
       "unlock": [
@@ -223,7 +223,7 @@
       "version": "expansion_pack"
     },
     "45": {
-      "color": "",
+      "color": "white",
       "name": "Ace of Spades (스페이드 10)",
       "id": "45",
       "unlock": [
@@ -235,7 +235,7 @@
       "version": "expansion_pack"
     },
     "46": {
-      "color": "",
+      "color": "white",
       "name": "Isaac's Fork (아이작의 포크)",
       "id": "46",
       "unlock": [
@@ -249,7 +249,7 @@
       "version": "expansion_pack"
     },
     "48": {
-      "color": "",
+      "color": "red",
       "name": "A Missing Page (찢어진 페이지)",
       "id": "48",
       "unlock": [
@@ -264,7 +264,7 @@
       "version": "expansion_pack"
     },
     "49": {
-      "color": "",
+      "color": "red",
       "name": "Bloody Penny (피묻은 동전)",
       "id": "49",
       "unlock": [
@@ -278,7 +278,7 @@
       "version": "expansion_pack"
     },
     "50": {
-      "color": "",
+      "color": "black",
       "name": "Burnt Penny (타버린 동전)",
       "id": "50",
       "unlock": [
@@ -291,7 +291,7 @@
       "version": "expansion_pack"
     },
     "51": {
-      "color": "",
+      "color": "white",
       "name": "Flat Penny (납작한 동전)",
       "id": "51",
       "unlock": [
@@ -304,7 +304,7 @@
       "version": "expansion_pack"
     },
     "52": {
-      "color": "",
+      "color": "yellow",
       "name": "Counterfeit Penny (가짜 동전)",
       "id": "52",
       "unlock": [
@@ -319,7 +319,7 @@
       "version": "expansion_pack"
     },
     "53": {
-      "color": "",
+      "color": "brown",
       "name": "Tick (진드기)",
       "id": "53",
       "unlock": [
@@ -332,7 +332,7 @@
       "version": "expansion_pack"
     },
     "54": {
-      "color": "",
+      "color": "red",
       "name": "Isaac's Head (아이작의 머리)",
       "id": "54",
       "unlock": [
@@ -347,7 +347,7 @@
       "version": "expansion_pack"
     },
     "55": {
-      "color": "",
+      "color": "yellow",
       "name": "Maggy's Faith (매기의 믿음)",
       "id": "55",
       "unlock": [
@@ -360,7 +360,7 @@
       "version": "expansion_pack"
     },
     "56": {
-      "color": "",
+      "color": "red",
       "name": "Judas' Tongue (유다의 혀)",
       "id": "56",
       "unlock": [
@@ -373,7 +373,7 @@
       "version": "expansion_pack"
     },
     "57": {
-      "color": "",
+      "color": "blue",
       "name": "???'s Soul (???의 영혼)",
       "id": "57",
       "unlock": [
@@ -388,7 +388,7 @@
       "version": "expansion_pack"
     },
     "58": {
-      "color": "",
+      "color": "brown",
       "name": "Samson's Lock (삼손의 머리채)",
       "id": "58",
       "unlock": [
@@ -403,7 +403,7 @@
       "version": "expansion_pack"
     },
     "59": {
-      "color": "",
+      "color": "white",
       "name": "Cain's Eye (카인의 눈)",
       "id": "59",
       "unlock": [
@@ -416,7 +416,7 @@
       "version": "expansion_pack"
     },
     "60": {
-      "color": "",
+      "color": "black",
       "name": "Eve's Bird Foot (이브의 새 다리)",
       "id": "60",
       "unlock": [
@@ -430,7 +430,7 @@
       "version": "expansion_pack"
     },
     "61": {
-      "color": "",
+      "color": "black",
       "name": "The Left Hand (왼손목)",
       "id": "61",
       "unlock": [
@@ -443,7 +443,7 @@
       "version": "expansion_pack"
     },
     "1": {
-        "color": "",
+        "color": "yellow",
         "name": "Swallowed Penny (삼킨 동전)",
         "id": "1",
         "unlock": [
@@ -456,7 +456,7 @@
         "version": "rebirth"
       },
       "2": {
-        "color": "",
+        "color": "black",
         "name": "Petrified Poop (굳은 똥)",
         "id": "2",
         "unlock": [
@@ -470,7 +470,7 @@
         "version": "rebirth"
       },
       "3": {
-        "color": "",
+        "color": "black",
         "name": "AAA Battery (AAA 건전지)",
         "id": "3",
         "unlock": [
@@ -485,7 +485,7 @@
         "version": "rebirth"
       },
       "4": {
-        "color": "",
+        "color": "black",
         "name": "Broken Remote (고장난 조종기)",
         "id": "4",
         "unlock": [
@@ -500,7 +500,7 @@
         "version": "rebirth"
       },
       "5": {
-        "color": "",
+        "color": "purple",
         "name": "Purple Heart (퍼플 하트 훈장)",
         "id": "5",
         "unlock": [
@@ -513,7 +513,7 @@
         "version": "rebirth"
       },
       "6": {
-        "color": "",
+        "color": "red",
         "name": "Broken Magnet (깨진 자석)",
         "id": "6",
         "unlock": [
@@ -526,7 +526,7 @@
         "version": "rebirth"
       },
       "7": {
-        "color": "",
+        "color": "red",
         "name": "Rosary Bead (묵주 구슬)",
         "id": "7",
         "unlock": [
@@ -540,7 +540,7 @@
         "version": "rebirth"
       },
       "8": {
-        "color": "",
+        "color": "black",
         "name": "Cartridge (카트리지)",
         "id": "8",
         "unlock": [
@@ -553,7 +553,7 @@
         "version": "rebirth"
       },
       "9": {
-        "color": "",
+        "color": "white",
         "name": "Pulse Worm (파동 벌레)",
         "id": "9",
         "unlock": [
@@ -568,7 +568,7 @@
         "version": "rebirth"
       },
       "10": {
-        "color": "",
+        "color": "white",
         "name": "Wiggle Worm (꿈틀 벌레)",
         "id": "10",
         "unlock": [
@@ -582,7 +582,7 @@
         "version": "rebirth"
       },
       "11": {
-        "color": "",
+        "color": "white",
         "name": "Ring Worm (고리 벌레)",
         "id": "11",
         "unlock": [
@@ -595,7 +595,7 @@
         "version": "rebirth"
       },
       "12": {
-        "color": "",
+        "color": "white",
         "name": "Flat Worm (납작 벌레)",
         "id": "12",
         "unlock": [
@@ -609,7 +609,7 @@
         "version": "rebirth"
       },
       "13": {
-        "color": "",
+        "color": "black",
         "name": "Store Credit (외상 증서)",
         "id": "13",
         "unlock": [
@@ -624,7 +624,7 @@
         "version": "rebirth"
       },
       "14": {
-        "color": "",
+        "color": "red",
         "name": "Callus (굳은살)",
         "id": "14",
         "unlock": [
@@ -638,7 +638,7 @@
         "version": "rebirth"
       },
       "15": {
-        "color": "",
+        "color": "black",
         "name": "Lucky Rock (행운의 돌조각)",
         "id": "15",
         "unlock": [
@@ -651,7 +651,7 @@
         "version": "rebirth"
       },
       "16": {
-        "color": "",
+        "color": "white",
         "name": "Mom's Toenail (엄마의 발톱)",
         "id": "16",
         "unlock": [
@@ -665,7 +665,7 @@
         "version": "rebirth"
       },
       "17": {
-        "color": "",
+        "color": "black",
         "name": "Black Lipstick (검은 립스틱)",
         "id": "17",
         "unlock": [
@@ -678,7 +678,7 @@
         "version": "rebirth"
       },
       "18": {
-        "color": "",
+        "color": "black",
         "name": "Bible Tract (주보)",
         "id": "18",
         "unlock": [
@@ -691,7 +691,7 @@
         "version": "rebirth"
       },
       "19": {
-        "color": "",
+        "color": "white",
         "name": "Paper Clip (종이 클립)",
         "id": "19",
         "unlock": [
@@ -706,7 +706,7 @@
         "version": "rebirth"
       },
       "20": {
-        "color": "",
+        "color": "brown",
         "name": "Monkey Paw (원숭이 손)",
         "id": "20",
         "unlock": [
@@ -721,7 +721,7 @@
         "version": "rebirth"
       },
       "21": {
-        "color": "",
+        "color": "white",
         "name": "Mysterious Paper (신비한 종이)",
         "id": "21",
         "unlock": [
@@ -733,7 +733,7 @@
         "version": "rebirth"
       },
       "22": {
-        "color": "",
+        "color": "black",
         "name": "Daemon's Tail (악마 꼬리)",
         "id": "22",
         "unlock": [
@@ -751,7 +751,7 @@
         "version": "rebirth"
       },
       "23": {
-        "color": "",
+        "color": "white",
         "name": "Missing Poster (실종 포스터)",
         "id": "23",
         "unlock": [
@@ -767,7 +767,7 @@
         "version": "rebirth"
       },
       "24": {
-        "color": "",
+        "color": "brown",
         "name": "Butt Penny (똥전)",
         "id": "24",
         "unlock": [
@@ -779,7 +779,7 @@
         "version": "rebirth"
       },
       "25": {
-        "color": "",
+        "color": "brown",
         "name": "Mysterious Candy (이상한 초콜릿)",
         "id": "25",
         "unlock": [
@@ -791,7 +791,7 @@
         "version": "rebirth"
       },
       "26": {
-        "color": "",
+        "color": "white",
         "name": "Hook Worm (꺾기 벌레)",
         "id": "26",
         "unlock": [
@@ -805,7 +805,7 @@
         "version": "rebirth"
       },
       "27": {
-        "color": "",
+        "color": "white",
         "name": "Whip Worm (채찍 벌레)",
         "id": "27",
         "unlock": [
@@ -818,7 +818,7 @@
         "version": "rebirth"
       },
       "28": {
-        "color": "",
+        "color": "black",
         "name": "Broken Ankh (부서진 앙크)",
         "id": "28",
         "unlock": [
@@ -832,7 +832,7 @@
         "version": "rebirth"
       },
       "62": {
-        "color": "",
+        "color": "white",
         "name": "Shiny Rock (빛나는 돌)",
         "id": "62",
         "unlock": [
@@ -844,7 +844,7 @@
         "version": "afterbirth"
     },
     "63": {
-        "color": "",
+        "color": "blue",
         "name": "Safety Scissors (안전 가위)",
         "id": "63",
         "unlock": [
@@ -856,7 +856,7 @@
         "version": "afterbirth"
     },
     "64": {
-        "color": "",
+        "color": "white",
         "name": "Rainbow Worm (무지개 벌레)",
         "id": "64",
         "unlock": [
@@ -869,7 +869,7 @@
         "version": "afterbirth"
     },
     "65": {
-        "color": "",
+        "color": "white",
         "name": "Tape Worm (테이프 벌레)",
         "id": "65",
         "unlock": [
@@ -882,7 +882,7 @@
         "version": "afterbirth"
     },
     "66": {
-        "color": "",
+        "color": "white",
         "name": "Lazy Worm (게으른 벌레)",
         "id": "66",
         "unlock": [
@@ -895,7 +895,7 @@
         "version": "afterbirth"
     },
     "67": {
-        "color": "",
+        "color": "white",
         "name": "Cracked Dice (갈라진 주사위)",
         "id": "67",
         "unlock": [
@@ -908,7 +908,7 @@
         "version": "afterbirth"
     },
     "68": {
-        "color": "",
+        "color": "white",
         "name": "Super Magnet (슈퍼 자석)",
         "id": "68",
         "unlock": [
@@ -924,7 +924,7 @@
         "version": "afterbirth"
     },
     "69": {
-        "color": "",
+        "color": "white",
         "name": "Faded Polaroid (흐려진 폴라로이드)",
         "id": "69",
         "unlock": [
@@ -937,7 +937,7 @@
         "version": "afterbirth"
     },
     "70": {
-        "color": "",
+        "color": "white",
         "name": "Louse (이)",
         "id": "70",
         "unlock": [
@@ -949,7 +949,7 @@
         "version": "afterbirth"
     },
     "71": {
-        "color": "",
+        "color": "green",
         "name": "Bob's Bladder (밥의 방광)",
         "id": "71",
         "unlock": [
@@ -962,7 +962,7 @@
         "version": "afterbirth"
     },
     "72": {
-        "color": "",
+        "color": "white",
         "name": "Watch Battery (손목시계용 전지)",
         "id": "72",
         "unlock": [
@@ -976,7 +976,7 @@
         "version": "afterbirth"
     },
     "73": {
-        "color": "",
+        "color": "red",
         "name": "Blasting Cap (폭파용 뇌관)",
         "id": "73",
         "unlock": [
@@ -989,7 +989,7 @@
         "version": "afterbirth"
     },
     "74": {
-        "color": "",
+        "color": "black",
         "name": "Stud Finder (벽체 탐지기)",
         "id": "74",
         "unlock": [
@@ -1001,7 +1001,7 @@
         "version": "afterbirth"
     },
     "75": {
-        "color": "",
+        "color": "red",
         "name": "Error (오류)",
         "id": "75",
         "unlock": [
@@ -1018,7 +1018,7 @@
         "version": "afterbirth"
     },
     "76": {
-        "color": "",
+        "color": "red",
         "name": "Poker Chip (포커 칩)",
         "id": "76",
         "unlock": [
@@ -1030,7 +1030,7 @@
         "version": "afterbirth"
     },
     "77": {
-        "color": "",
+        "color": "white",
         "name": "Blister (물집)",
         "id": "77",
         "unlock": [
@@ -1043,7 +1043,7 @@
         "version": "afterbirth"
     },
     "78": {
-        "color": "",
+        "color": "red",
         "name": "Second Hand (초침)",
         "id": "78",
         "unlock": [
@@ -1055,7 +1055,7 @@
         "version": "afterbirth"
     },
     "79": {
-        "color": "",
+        "color": "black",
         "name": "Endless Nameless (엔들리스 네임리스)",
         "id": "79",
         "unlock": [
@@ -1067,7 +1067,7 @@
         "version": "afterbirth"
     },
     "80": {
-        "color": "",
+        "color": "black",
         "name": "Black Feather (검은 깃털)",
         "id": "80",
         "unlock": [
@@ -1081,7 +1081,7 @@
         "version": "afterbirth"
     },
     "81": {
-        "color": "",
+        "color": "white",
         "name": "Blind Rage (눈 먼 분노)",
         "id": "81",
         "unlock": [
@@ -1094,7 +1094,7 @@
         "version": "afterbirth"
     },
     "82": {
-        "color": "",
+        "color": "yellow",
         "name": "Golden Horse Shoe (황금 말굽)",
         "id": "82",
         "unlock": [
@@ -1106,7 +1106,7 @@
         "version": "afterbirth"
     },
     "83": {
-        "color": "",
+        "color": "black",
         "name": "Store Key (상점 열쇠)",
         "id": "83",
         "unlock": [
@@ -1120,7 +1120,7 @@
         "version": "afterbirth"
     },
     "84": {
-        "color": "",
+        "color": "white",
         "name": "Rib of Greed (탐욕의 늑골)",
         "id": "84",
         "unlock": [
@@ -1134,7 +1134,7 @@
         "version": "afterbirth"
     },
     "85": {
-        "color": "",
+        "color": "green",
         "name": "Karma (업보)",
         "id": "85",
         "unlock": [
@@ -1147,7 +1147,7 @@
         "version": "afterbirth"
     },
     "86": {
-        "color": "",
+        "color": "white",
         "name": "Lil Larva (리틀 라바)",
         "id": "86",
         "unlock": [
@@ -1160,8 +1160,8 @@
         "version": "afterbirth"
     },
     "87": {
-        "color": "",
-        "name": "Mom's Locket (엄마의 로켓[27])",
+        "color": "red",
+        "name": "Mom's Locket (엄마의 로켓)",
         "id": "87",
         "unlock": [
             "-"
@@ -1175,7 +1175,7 @@
         "version": "afterbirth"
     },
     "88": {
-        "color": "",
+        "color": "red",
         "name": "NO! (아니! 필요없어)",
         "id": "88",
         "unlock": [
@@ -1191,7 +1191,7 @@
         "version": "afterbirth"
     },
     "89": {
-        "color": "",
+        "color": "blue",
         "name": "Child Leash (미아 방지끈)",
         "id": "89",
         "unlock": [
@@ -1203,7 +1203,7 @@
         "version": "afterbirth"
     },
     "90": {
-        "color": "",
+        "color": "brown",
         "name": "Brown Cap (갈색 마개)",
         "id": "90",
         "unlock": [
@@ -1216,7 +1216,7 @@
         "version": "afterbirth"
     },
     "91": {
-        "color": "",
+        "color": "black",
         "name": "Meconium",
         "id": "91",
         "unlock": [
@@ -1230,7 +1230,7 @@
         "version": "afterbirth_plus"
     },
     "92": {
-        "color": "",
+        "color": "yellow",
         "name": "Cracked Crown",
         "id": "92",
         "unlock": [
@@ -1247,7 +1247,7 @@
         "version": "afterbirth_plus"
     },
     "93": {
-        "color": "",
+        "color": "white",
         "name": "Used Diaper",
         "id": "93",
         "unlock": [
@@ -1263,7 +1263,7 @@
         "version": "afterbirth_plus"
     },
     "94": {
-        "color": "",
+        "color": "black",
         "name": "Fish Tail",
         "id": "94",
         "unlock": [
@@ -1276,7 +1276,7 @@
         "version": "afterbirth_plus"
     },
     "95": {
-        "color": "",
+        "color": "black",
         "name": "Black Tooth",
         "id": "95",
         "unlock": [
@@ -1289,7 +1289,7 @@
         "version": "afterbirth_plus"
     },
     "96": {
-        "color": "",
+        "color": "black",
         "name": "Ouroboros Worm (우주 뱀 벌레)",
         "id": "96",
         "unlock": [
@@ -1304,7 +1304,7 @@
         "version": "afterbirth_plus"
     },
     "97": {
-        "color": "",
+        "color": "red",
         "name": "Tonsil (편도선)",
         "id": "97",
         "unlock": [
@@ -1321,7 +1321,7 @@
         "version": "afterbirth_plus"
     },
     "98": {
-        "color": "",
+        "color": "green",
         "name": "Nose Goblin (콧물 점액)",
         "id": "98",
         "unlock": [
@@ -1335,7 +1335,7 @@
         "version": "afterbirth_plus"
     },
     "99": {
-        "color": "",
+        "color": "red",
         "name": "Super Ball (통통볼)",
         "id": "99",
         "unlock": [
@@ -1348,7 +1348,7 @@
         "version": "afterbirth_plus"
     },
     "100": {
-        "color": "",
+        "color": "yellow",
         "name": "Vibrant Bulb (선명한 전구)",
         "id": "100",
         "unlock": [
@@ -1365,7 +1365,7 @@
         "version": "afterbirth_plus"
     },
     "101": {
-        "color": "",
+        "color": "black",
         "name": "Dim Bulb",
         "id": "101",
         "unlock": [
@@ -1382,7 +1382,7 @@
         "version": "afterbirth_plus"
     },
     "102": {
-        "color": "",
+        "color": "purple",
         "name": "Fragmented Card (조각난 카드)",
         "id": "102",
         "unlock": [
@@ -1397,7 +1397,7 @@
         "version": "afterbirth_plus"
     },
     "103": {
-        "color": "",
+        "color": "red",
         "name": "Equality! (똑같아!)",
         "id": "103",
         "unlock": [
@@ -1411,7 +1411,7 @@
         "version": "afterbirth_plus"
     },
     "104": {
-        "color": "",
+        "color": "white",
         "name": "Wish Bone",
         "id": "104",
         "unlock": [
@@ -1423,7 +1423,7 @@
         "version": "afterbirth_plus"
     },
     "105": {
-        "color": "",
+        "color": "brown",
         "name": "Bag Lunch (점심 도시락)",
         "id": "105",
         "unlock": [
@@ -1435,7 +1435,7 @@
         "version": "afterbirth_plus"
     },
     "106": {
-        "color": "",
+        "color": "red",
         "name": "Lost Cork (잃어버린 코르크)",
         "id": "106",
         "unlock": [
@@ -1448,7 +1448,7 @@
         "version": "afterbirth_plus"
     },
     "107": {
-        "color": "",
+        "color": "purple",
         "name": "Crow Heart",
         "id": "107",
         "unlock": [
@@ -1463,7 +1463,7 @@
         "version": "afterbirth_plus"
     },
     "108": {
-        "color": "",
+        "color": "brown",
         "name": "Walnut (호두)",
         "id": "108",
         "unlock": [
@@ -1476,7 +1476,7 @@
         "version": "afterbirth_plus"
     },
     "109": {
-        "color": "",
+        "color": "white",
         "name": "Duct Tape (덕 테이프)",
         "id": "109",
         "unlock": [
@@ -1492,7 +1492,7 @@
         "version": "afterbirth_plus"
     },
     "110": {
-        "color": "",
+        "color": "black",
         "name": "Silver Dollar",
         "id": "110",
         "unlock": [
@@ -1506,7 +1506,7 @@
         "version": "afterbirth_plus"
     },
     "111": {
-        "color": "",
+        "color": "red",
         "name": "Bloody Crown",
         "id": "111",
         "unlock": [
@@ -1520,7 +1520,7 @@
         "version": "afterbirth_plus"
     },
     "112": {
-        "color": "",
+        "color": "blue",
         "name": "Pay to Win(부분 유료)",
         "id": "112",
         "unlock": [
@@ -1536,7 +1536,7 @@
         "version": "afterbirth_plus"
     },
     "113": {
-        "color": "",
+        "color": "red",
         "name": "Locust of War",
         "id": "113",
         "unlock": [
@@ -1553,7 +1553,7 @@
         "version": "afterbirth_plus"
     },
     "114": {
-        "color": "",
+        "color": "green",
         "name": "Locust of Pestilence",
         "id": "114",
         "unlock": [
@@ -1567,7 +1567,7 @@
         "version": "afterbirth_plus"
     },
     "115": {
-        "color": "",
+        "color": "black",
         "name": "Locust of Famine (기근의 매뚜기)",
         "id": "115",
         "unlock": [
@@ -1581,7 +1581,7 @@
         "version": "afterbirth_plus"
     },
     "116": {
-        "color": "",
+        "color": "black",
         "name": "Locust of Death",
         "id": "116",
         "unlock": [
@@ -1596,7 +1596,7 @@
         "version": "afterbirth_plus"
     },
     "117": {
-        "color": "",
+        "color": "white",
         "name": "Locust of Conquest (정복의 메뚜기)",
         "id": "117",
         "unlock": [
@@ -1610,7 +1610,7 @@
         "version": "afterbirth_plus"
     },
     "118": {
-        "color": "",
+        "color": "black",
         "name": "Bat Wing",
         "id": "118",
         "unlock": [
@@ -1622,7 +1622,7 @@
         "version": "afterbirth_plus"
     },
     "119": {
-        "color": "",
+        "color": "orange",
         "name": "Stem Cell",
         "id": "119",
         "unlock": [
@@ -1636,7 +1636,7 @@
         "version": "afterbirth_plus"
     },
     "120": {
-        "color": "",
+        "color": "white",
         "name": "Hairpin (머리핀)",
         "id": "120",
         "unlock": [
@@ -1651,7 +1651,7 @@
         "version": "booster_pack"
     },
     "121": {
-        "color": "",
+        "color": "green",
         "name": "Wooden Cross (나무 십자가)",
         "id": "121",
         "unlock": [
@@ -1664,7 +1664,7 @@
         "version": "booster_pack"
     },
     "122": {
-        "color": "",
+        "color": "yellow",
         "name": "Butter!",
         "id": "122",
         "unlock": [
@@ -1677,7 +1677,7 @@
         "version": "booster_pack"
     },
     "123": {
-        "color": "",
+        "color": "white",
         "name": "Filigree Feather (세공 깃털)",
         "id": "123",
         "unlock": [
@@ -1691,7 +1691,7 @@
         "version": "booster_pack"
     },
     "124": {
-        "color": "",
+        "color": "brown",
         "name": "Door Stop (고정목)",
         "id": "124",
         "unlock": [
@@ -1706,7 +1706,7 @@
         "version": "booster_pack"
     },
     "125": {
-        "color": "",
+        "color": "white",
         "name": "Extension Cord(연장 코드)",
         "id": "125",
         "unlock": [
@@ -1725,7 +1725,7 @@
         "version": "booster_pack"
     },
     "126": {
-        "color": "",
+        "color": "brown",
         "name": "Rotten Penny(썩은 동전)",
         "id": "126",
         "unlock": [
@@ -1737,7 +1737,7 @@
         "version": "booster_pack"
     },
     "127": {
-        "color": "",
+        "color": "blue",
         "name": "Baby-Bender",
         "id": "127",
         "unlock": [
@@ -1750,7 +1750,7 @@
         "version": "booster_pack"
     },
     "128": {
-        "color": "",
+        "color": "white",
         "name": "Finger Bone",
         "id": "128",
         "unlock": [

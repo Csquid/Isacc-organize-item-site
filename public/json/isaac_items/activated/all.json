@@ -159,7 +159,7 @@
         "version": "original"
     },
     "42": {
-        "color": "white",
+        "color": "green",
         "name": "Bob's Rotten Head (밥의 썩은 머리통)",
         "id": "42",
         "cool_down": "3칸",
@@ -600,7 +600,7 @@
         "version": "original"
     },
     "133": {
-        "color": "",
+        "color": "black",
         "name": "Guppy's Paw (구피의 발)",
         "id": "133",
         "cool_down": "무제한",
@@ -619,7 +619,7 @@
         "version": "expansion_pack"
     },
     "135": {
-        "color": "",
+        "color": "red",
         "name": "IV Bag (수혈팩)",
         "id": "135",
         "cool_down": "무제한",
@@ -636,7 +636,7 @@
         "version": "expansion_pack"
     },
     "136": {
-        "color": "",
+        "color": "red",
         "name": "Best Friend (최고의 친구)",
         "id": "136",
         "cool_down": "3칸",
@@ -650,7 +650,7 @@
         "version": "expansion_pack"
     },
     "137": {
-        "color": "",
+        "color": "red",
         "name": "Remote Detonator (원격 폭파기)",
         "id": "137",
         "cool_down": "무제한",
@@ -666,7 +666,7 @@
         "version": "expansion_pack"
     },
     "145": {
-        "color": "",
+        "color": "black",
         "name": "Guppy's Head (구피의 머리)",
         "id": "145",
         "cool_down": "1칸",
@@ -687,7 +687,7 @@
         "version": "expansion_pack"
     },
     "146": {
-        "color": "",
+        "color": "yellow",
         "name": "Prayer Card (기도자 카드)",
         "id": "146",
         "cool_down": "6칸",
@@ -704,7 +704,7 @@
         "version": "expansion_pack"
     },
     "147": {
-        "color": "",
+        "color": "white",
         "name": "Notched Axe (각진 곡괭이)",
         "id": "147",
         "cool_down": "3칸",
@@ -720,7 +720,7 @@
         "version": "expansion_pack"
     },
     "158": {
-        "color": "",
+        "color": "white",
         "name": "Crystal Ball (수정 구슬)",
         "id": "158",
         "cool_down": "6칸",
@@ -736,7 +736,7 @@
         "version": "expansion_pack"
     },
     "160": {
-        "color": "",
+        "color": "white",
         "name": "Crack the Sky (하늘을 가르다)",
         "id": "160",
         "cool_down": "4칸",
@@ -751,7 +751,7 @@
         "version": "expansion_pack"
     },
     "164": {
-        "color": "",
+        "color": "blue",
         "name": "The Candle (양초)",
         "id": "164",
         "cool_down": "4초",
@@ -769,7 +769,7 @@
         "version": "expansion_pack"
     },
     "166": {
-        "color": "",
+        "color": "red",
         "name": "D20 (20면 주사위)",
         "id": "166",
         "cool_down": "6칸",
@@ -787,7 +787,7 @@
         "version": "expansion_pack"
     },
     "171": {
-        "color": "",
+        "color": "black",
         "name": "Spider Butt (거미의 궁둥이)",
         "id": "171",
         "cool_down": "무제한",
@@ -802,7 +802,7 @@
         "version": "expansion_pack"
     },
     "175": {
-        "color": "",
+        "color": "brown",
         "name": "Dad's Key (아빠의 열쇠)",
         "id": "175",
         "cool_down": "2칸",
@@ -818,7 +818,7 @@
         "version": "expansion_pack"
     },
     "177": {
-        "color": "",
+        "color": "red",
         "name": "Portable Slot (휴대용 슬롯 머신)",
         "id": "177",
         "cool_down": "무제한",
@@ -835,7 +835,7 @@
         "version": "expansion_pack"
     },
     "181": {
-        "color": "",
+        "color": "white",
         "name": "White Pony (흰 조랑말)",
         "id": "181",
         "cool_down": "6칸",
@@ -851,7 +851,7 @@
         "version": "expansion_pack"
     },
     "186": {
-        "color": "",
+        "color": "red",
         "name": "Blood Rights (피의 권리)",
         "id": "186",
         "cool_down": "무제한",
@@ -869,8 +869,8 @@
         "version": "expansion_pack"
     },
     "192": {
-        "color": "",
-        "name": "Telepathy for Dummies[8] (텔레파시 입문서)",
+        "color": "yellow",
+        "name": "Telepathy for Dummies (텔레파시 입문서)",
         "id": "192",
         "cool_down": "2칸",
         "unlock": "-",
@@ -888,7 +888,7 @@
         "version": "expansion_pack"
     },
     "282": {
-        "color": "",
+        "color": "black",
         "name": "How to Jump (점프 교본)",
         "id": "282",
         "cool_down": "무제한",
@@ -911,7 +911,7 @@
         "version": "rebirth"
     },
     "283": {
-        "color": "",
+        "color": "white",
         "name": "D100 (100면 주사위)",
         "id": "283",
         "cool_down": "6칸",
@@ -929,7 +929,7 @@
         "version": "rebirth"
     },
     "284": {
-        "color": "",
+        "color": "green",
         "name": "D4 (4면 주사위)",
         "id": "284",
         "cool_down": "6칸",
@@ -952,7 +952,7 @@
         "version": "rebirth"
     },
     "285": {
-        "color": "",
+        "color": "orange",
         "name": "D10 (10면 주사위)",
         "id": "285",
         "cool_down": "1칸",
@@ -967,7 +967,7 @@
         "version": "rebirth"
     },
     "286": {
-        "color": "",
+        "color": "white",
         "name": "Blank Card (백지 카드)",
         "id": "286",
         "cool_down": "4칸",
@@ -986,7 +986,7 @@
         "version": "rebirth"
     },
     "287": {
-        "color": "",
+        "color": "white",
         "name": "Book of Secrets (비밀의 서)",
         "id": "287",
         "cool_down": "6",
@@ -1005,7 +1005,7 @@
         "version": "rebirth"
     },
     "288": {
-        "color": "",
+        "color": "white",
         "name": "Box of Spiders (거미 상자)",
         "id": "288",
         "cool_down": "2",
@@ -1022,7 +1022,7 @@
         "version": "rebirth"
     },
     "289": {
-        "color": "",
+        "color": "red",
         "name": "Red Candle (붉은 양초)",
         "id": "289",
         "cool_down": "4초",
@@ -1041,7 +1041,7 @@
         "version": "rebirth"
     },
     "290": {
-        "color": "",
+        "color": "white",
         "name": "The Jar (유리병)",
         "id": "290",
         "cool_down": "무제한",
@@ -1061,7 +1061,7 @@
         "version": "rebirth"
     },
     "291": {
-        "color": "",
+        "color": "white",
         "name": "Flush! (쏴아)",
         "id": "291",
         "cool_down": "6칸",
@@ -1083,7 +1083,7 @@
         "version": "rebirth"
     },
     "292": {
-        "color": "",
+        "color": "black",
         "name": "Satanic Bible (사탄경)",
         "id": "292",
         "cool_down": "6칸",
@@ -1103,7 +1103,7 @@
         "version": "rebirth"
     },
     "293": {
-        "color": "",
+        "color": "white",
         "name": "Head of Krampus (크람푸스의 머리)",
         "id": "293",
         "cool_down": "6칸",
@@ -1118,7 +1118,7 @@
         "version": "rebirth"
     },
     "294": {
-        "color": "",
+        "color": "white",
         "name": "Butter Bean (흰강낭콩)",
         "id": "294",
         "cool_down": "3초",
@@ -1134,7 +1134,7 @@
         "version": "rebirth"
     },
     "295": {
-        "color": "",
+        "color": "white",
         "name": "Magic Fingers (유료 안마기)[26]",
         "id": "295",
         "cool_down": "무제한",
@@ -1150,7 +1150,7 @@
         "version": "rebirth"
     },
     "296": {
-        "color": "",
+        "color": "blue",
         "name": "Converter (변환기)",
         "id": "296",
         "cool_down": "무제한",
@@ -1166,7 +1166,7 @@
         "version": "rebirth"
     },
     "297": {
-        "color": "",
+        "color": "blue",
         "name": "Pandora's Box (판도라의 상자)",
         "id": "297",
         "cool_down": "일회용",
@@ -1187,7 +1187,7 @@
         "version": "rebirth"
     },
     "298": {
-        "color": "",
+        "color": "white",
         "name": "Unicorn Stump (유니콘의 뿔 토막)",
         "id": "298",
         "cool_down": "1칸",
@@ -1203,7 +1203,7 @@
         "version": "rebirth"
     },
     "323": {
-        "color": "",
+        "color": "blue",
         "name": "Isaac's Tears (아이작의 눈물)",
         "id": "323",
         "cool_down": "6칸",
@@ -1220,7 +1220,7 @@
         "version": "rebirth"
     },
     "324": {
-        "color": "",
+        "color": "red",
         "name": "Undefined (오류)",
         "id": "324",
         "cool_down": "6칸",
@@ -1239,7 +1239,7 @@
         "version": "rebirth"
     },
     "325": {
-        "color": "",
+        "color": "white",
         "name": "Scissors (가위)",
         "id": "325",
         "cool_down": "2칸",
@@ -1259,7 +1259,7 @@
         "version": "rebirth"
     },
     "326": {
-        "color": "",
+        "color": "white",
         "name": "Breath of Life (생명의 숨결)",
         "id": "326",
         "cool_down": "6칸",
@@ -1278,7 +1278,7 @@
         "version": "rebirth"
     },
     "338": {
-        "color": "",
+        "color": "blue",
         "name": "The Boomerang (부메랑)",
         "id": "338",
         "cool_down": "4초",
@@ -1299,7 +1299,7 @@
         "version": "rebirth"
     },
     "347": {
-        "color": "",
+        "color": "white",
         "name": "Diplopia (복시)",
         "id": "347",
         "cool_down": "일회용",
@@ -1315,7 +1315,7 @@
         "version": "afterbirth"
     },
     "348": {
-        "color": "",
+        "color": "white",
         "name": "Placebo (위약)",
         "id": "348",
         "cool_down": "4칸",
@@ -1334,7 +1334,7 @@
         "version": "afterbirth"
     },
     "349": {
-        "color": "",
+        "color": "brown",
         "name": "Wooden Nickel (나무 동전)",
         "id": "349",
         "cool_down": "1칸",
@@ -1350,7 +1350,7 @@
         "version": "afterbirth"
     },
     "351": {
-        "color": "",
+        "color": "white",
         "name": "Mega Bean (대빵 큰 콩)",
         "id": "351",
         "cool_down": "3칸",
@@ -1367,7 +1367,7 @@
         "version": "afterbirth"
     },
     "352": {
-        "color": "",
+        "color": "white",
         "name": "Glass Cannon (유리 대포)",
         "id": "352",
         "cool_down": "4초",
@@ -1385,7 +1385,7 @@
         "version": "afterbirth"
     },
     "357": {
-        "color": "",
+        "color": "yellow",
         "name": "Box of Friends (친구 상자)",
         "id": "357",
         "cool_down": "4칸",
@@ -1404,7 +1404,7 @@
         "version": "afterbirth"
     },
     "382": {
-        "color": "",
+        "color": "white",
         "name": "Friendly Ball (친절한 공)",
         "id": "382",
         "cool_down": "3칸",
@@ -1424,7 +1424,7 @@
         "version": "afterbirth"
     },
     "383": {
-        "color": "",
+        "color": "blue",
         "name": "Tear Detonator (눈물 기폭제)",
         "id": "383",
         "cool_down": "1칸",
@@ -1440,7 +1440,7 @@
         "version": "afterbirth"
     },
     "386": {
-        "color": "",
+        "color": "blue",
         "name": "D12 (12면 주사위)",
         "id": "386",
         "cool_down": "3칸",
@@ -1459,7 +1459,7 @@
         "version": "afterbirth"
     },
     "396": {
-        "color": "",
+        "color": "white",
         "name": "Ventricle Razor (심실 절단기)",
         "id": "396",
         "cool_down": "무제한",
@@ -1476,7 +1476,7 @@
         "version": "afterbirth"
     },
     "406": {
-        "color": "",
+        "color": "black",
         "name": "D8 (8면 주사위)",
         "id": "406",
         "cool_down": "4칸",
@@ -1493,7 +1493,7 @@
         "version": "afterbirth"
     },
     "419": {
-        "color": "",
+        "color": "yellow",
         "name": "Teleport 2.0 (텔레포트 2.0)",
         "id": "419",
         "cool_down": "4칸",
@@ -1514,7 +1514,7 @@
         "version": "afterbirth"
     },
     "421": {
-        "color": "",
+        "color": "red",
         "name": "Kidney Bean (강낭콩)",
         "id": "421",
         "cool_down": "2칸",
@@ -1529,7 +1529,7 @@
         "version": "afterbirth"
     },
     "422": {
-        "color": "",
+        "color": "blue",
         "name": "Glowing Hour Glass (빛나는 모래시계)",
         "id": "422",
         "cool_down": "2칸",
@@ -1551,7 +1551,7 @@
         "version": "afterbirth"
     },
     "427": {
-        "color": "",
+        "color": "orange",
         "name": "Mine Crafter (마인크래프터)",
         "id": "427",
         "cool_down": "1칸",
@@ -1567,7 +1567,7 @@
         "version": "afterbirth"
     },
     "434": {
-        "color": "",
+        "color": "white",
         "name": "Jar of Flies (파리 담은 병)",
         "id": "434",
         "cool_down": "무제한",
@@ -1586,7 +1586,7 @@
         "version": "afterbirth"
     },
     "437": {
-        "color": "",
+        "color": "black",
         "name": "D7 (7면체 주사위)",
         "id": "437",
         "cool_down": "3칸",
@@ -1606,7 +1606,7 @@
         "version": "afterbirth"
     },
     "439": {
-        "color": "",
+        "color": "black",
         "name": "Mom's Box (엄마의 상자)",
         "id": "439",
         "cool_down": "4칸",
@@ -1622,7 +1622,7 @@
         "version": "afterbirth"
     },
     "441": {
-        "color": "",
+        "color": "black",
         "name": "Mega Blast (거대 돌풍)",
         "id": "441",
         "cool_down": "12칸",
@@ -1643,7 +1643,7 @@
         "version": "afterbirth"
     },
     "475": {
-        "color": "",
+        "color": "red",
         "name": "Plan C",
         "id": "475",
         "cool_down": "일회용",
@@ -1668,7 +1668,7 @@
         "version": "afterbirth_plus"
     },
     "476": {
-        "color": "",
+        "color": "white",
         "name": "D1",
         "id": "476",
         "cool_down": "4",
@@ -1685,7 +1685,7 @@
         "version": "afterbirth_plus"
     },
     "477": {
-        "color": "",
+        "color": "black",
         "name": "Void (공허)",
         "id": "477",
         "cool_down": "6",
@@ -1708,7 +1708,7 @@
         "version": "afterbirth_plus"
     },
     "478": {
-        "color": "",
+        "color": "green",
         "name": "Pause (일시정지)",
         "id": "478",
         "cool_down": "2",
@@ -1727,7 +1727,7 @@
         "version": "afterbirth_plus"
     },
     "479": {
-        "color": "",
+        "color": "white",
         "name": "Smelter",
         "id": "479",
         "cool_down": "6",
@@ -1745,7 +1745,7 @@
         "version": "afterbirth_plus"
     },
     "480": {
-        "color": "",
+        "color": "black",
         "name": "Compost (퇴비)",
         "id": "480",
         "cool_down": "2",
@@ -1762,7 +1762,7 @@
         "version": "afterbirth_plus"
     },
     "481": {
-        "color": "",
+        "color": "red",
         "name": "Dataminer (데이터마이너)",
         "id": "481",
         "cool_down": "4",
@@ -1780,7 +1780,7 @@
         "version": "afterbirth_plus"
     },
     "482": {
-        "color": "",
+        "color": "black",
         "name": "Clicker (딸깍이)",
         "id": "482",
         "cool_down": "6",
@@ -1799,7 +1799,7 @@
         "version": "afterbirth_plus"
     },
     "483": {
-        "color": "",
+        "color": "black",
         "name": "Mama Mega!",
         "id": "483",
         "cool_down": "일회용",
@@ -1818,7 +1818,7 @@
         "version": "afterbirth_plus"
     },
     "484": {
-        "color": "",
+        "color": "white",
         "name": "Wait What?",
         "id": "484",
         "cool_down": "10초",
@@ -1834,7 +1834,7 @@
         "version": "afterbirth_plus"
     },
     "485": {
-        "color": "",
+        "color": "yellow",
         "name": "Crooked Penny",
         "id": "485",
         "cool_down": "4",
@@ -1857,7 +1857,7 @@
         "version": "afterbirth_plus"
     },
     "486": {
-        "color": "",
+        "color": "white",
         "name": "Dull Razor",
         "id": "486",
         "cool_down": "2",
@@ -1874,7 +1874,7 @@
         "version": "afterbirth_plus"
     },
     "487": {
-        "color": "",
+        "color": "brown",
         "name": "Potato Peeler (감자칼)",
         "id": "487",
         "cool_down": "무제한",
@@ -1891,7 +1891,7 @@
         "version": "afterbirth_plus"
     },
     "488": {
-        "color": "",
+        "color": "brown",
         "name": "Metronome",
         "id": "488",
         "cool_down": "2칸",
@@ -1911,7 +1911,7 @@
         "version": "afterbirth_plus"
     },
     "489": {
-        "color": "",
+        "color": "black",
         "name": "D Infinity",
         "id": "489",
         "cool_down": "2칸",
@@ -1928,7 +1928,7 @@
         "version": "afterbirth_plus"
     },
     "490": {
-        "color": "",
+        "color": "blue",
         "name": "Eden's Soul",
         "id": "490",
         "cool_down": "12 (일회용)",
@@ -1945,7 +1945,7 @@
         "version": "afterbirth_plus"
     },
     "504": {
-        "color": "",
+        "color": "brown",
         "name": "Brown Nugget",
         "id": "504",
         "cool_down": "7초",
@@ -1961,7 +1961,7 @@
         "version": "afterbirth_plus"
     },
     "507": {
-        "color": "",
+        "color": "blue",
         "name": "Sharp Straw (날카로운 빨대)",
         "id": "507",
         "cool_down": "8초",
@@ -1978,7 +1978,7 @@
         "version": "afterbirth_plus"
     },
     "510": {
-        "color": "",
+        "color": "white",
         "name": "Delirious (무의식)",
         "id": "510",
         "cool_down": "12칸",
@@ -1997,7 +1997,7 @@
         "version": "afterbirth_plus"
     },
     "512": {
-        "color": "",
+        "color": "purple",
         "name": "Black Hole",
         "id": "512",
         "cool_down": "4",
@@ -2015,7 +2015,7 @@
         "version": "booster_pack"
     },
     "515": {
-        "color": "",
+        "color": "green",
         "name": "Mystery Gift",
         "id": "515",
         "cool_down": "일회용",
@@ -2030,7 +2030,7 @@
         "version": "booster_pack"
     },
     "516": {
-        "color": "",
+        "color": "white",
         "name": "Sprinkler",
         "id": "516",
         "cool_down": "4",
@@ -2047,7 +2047,7 @@
         "version": "booster_pack"
     },
     "521": {
-        "color": "",
+        "color": "green",
         "name": "Coupon (쿠폰)",
         "id": "521",
         "cool_down": "6",
@@ -2064,7 +2064,7 @@
         "version": "booster_pack"
     },
     "522": {
-        "color": "",
+        "color": "blue",
         "name": "Telekinesis",
         "id": "522",
         "cool_down": "3초",
@@ -2081,7 +2081,7 @@
         "version": "booster_pack"
     },
     "523": {
-        "color": "",
+        "color": "yellow",
         "name": "Moving Box",
         "id": "523",
         "cool_down": "4초",
@@ -2098,7 +2098,7 @@
         "version": "booster_pack"
     },
     "527": {
-        "color": "",
+        "color": "brown",
         "name": "Mr. ME!",
         "id": "527",
         "cool_down": "4",
@@ -2129,7 +2129,7 @@
         "version": "booster_pack"
     },
     "536": {
-        "color": "",
+        "color": "red",
         "name": "Sacrificial Altar (희생의 제단)",
         "id": "536",
         "cool_down": "일회용",
@@ -2148,7 +2148,7 @@
         "version": "booster_pack"
     },
     "545": {
-        "color": "",
+        "color": "black",
         "name": "Book of the Dead",
         "id": "545",
         "cool_down": "4",
@@ -2167,7 +2167,7 @@
         "version": "booster_pack"
     },
     "550": {
-        "color": "",
+        "color": "black",
         "name": "Broken Shovel",
         "id": "550",
         "cool_down": "4",
@@ -2188,7 +2188,7 @@
         "version": "booster_pack"
     },
     "552": {
-        "color": "",
+        "color": "black",
         "name": "Mom's Shovel",
         "id": "552",
         "cool_down": "4",
