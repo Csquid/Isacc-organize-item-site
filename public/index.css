@@ -135,8 +135,6 @@ a:visited {
 #body-container #body-content #tab-container .item-content {
     width: 800px;
     margin: auto;
-    /* margin-top: 20px; */
-    text-align: center;
     border: 1px solid gray;
     padding: 20px;
     background-color: lightgray;
@@ -172,6 +170,30 @@ a:visited {
     margin-bottom: -5000px;
     padding-bottom: 5000px;
 }
+#body-container #body-sidebar #checkbox-dropbox {
+    text-align: center;
+    background: lightgray;
+    padding: 10px;
+    cursor: pointer;
+    border: 3px solid black;
+    /* border: 10px solid; */
+    /* -webkit-border-image: linear-gradient(45deg, red, yellow, lime, aqua, blue, magenta, red); */
+    /* border-image-slice: 1; */
+}
+#body-container #body-sidebar #checkbox-version {
+    /* background: linear-gradient(45deg, red, yellow, lime, aqua, blue, magenta, red); */
+    padding: 20px 20px 20px 10px;
+    border: 3px solid black;
+    border-top: 0;
+    display: none;
+}
+#body-container #body-sidebar #checkbox-version .pretty:last-child {
+    padding-bottom: 0px
+}
+#body-container #body-sidebar #checkbox-version .pretty {
+    display: block;
+    padding-bottom: 20px;
+}
 #body-container #body-sidebar #content {
     padding: 10px;
     padding-top: 30px;
@@ -184,13 +206,12 @@ a:visited {
     font-size: 13px;
 }
 #body-container #body-sidebar #content #item-information {
-    /* text-align: center; */
     background: lightgray;
-    padding-top: 5px;
-    padding-left: 10px;
-    border: 0.5px solid black;
+    border: 3px solid black;
+    padding: 5px 10px 0 10px;
+    margin-top: 20px;
+    max-height: 600px;
     overflow: auto;
-    max-height: 700px;
     display: none;
 }
 
@@ -202,7 +223,8 @@ a:visited {
     background-color: white;
 }
 #body-container #body-sidebar #content #item-information::-webkit-scrollbar-thumb {
-    background: -webkit-linear-gradient(top,red,orange,yellow,green,blue,indigo,violet); 
+    /* background: -webkit-linear-gradient(top,red,orange,yellow,green,blue,indigo,violet);  */
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, black 50%, rgba(255,255,255,1) 100%);
 }
 #body-container #body-sidebar #content #item-information::-webkit-scrollbar-button {
     display: none;

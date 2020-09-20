@@ -168,11 +168,27 @@ window.onload = function () {
     //스크롤 할때 
     document.addEventListener('scroll', function() {
         if(document.documentElement.scrollTop != 0) {
-            document.querySelector("#body-sidebar #content").style = "margin-top: -70px;"
+            document.querySelector("#body-sidebar #content").style = "margin-top: -70px;";
         } else {
-            document.querySelector("#body-sidebar #content").style = "margin-top: 0px;"
+            document.querySelector("#body-sidebar #content").style = "margin-top: 0px;";
         }
     })
+
+    let isaac_setting_dropbox = document.querySelector("#checkbox-dropbox");
+    let isaac_setting_dropbox_content = document.querySelector("#checkbox-version");
+    let isaac_item_information_view = document.querySelector('#item-information');
+
+    //isaac version setting drop box (아이작 버전 설정 드랍 박스)  
+    isaac_setting_dropbox.addEventListener('click', function(){
+        if(isaac_setting_dropbox_content.style.display == 'none') {
+            isaac_setting_dropbox_content.style.display = 'block';
+            isaac_item_information_view.style.maxHeight = "450px"
+        }
+        else {
+            isaac_setting_dropbox_content.style.display = 'none';
+            isaac_item_information_view.style.maxHeight = "600px"
+        }
+    });
 
     //body content 안에 있는 tab의 버튼들을 클릭했을때 처리
     tabNavColors.forEach(function (item, index) {
