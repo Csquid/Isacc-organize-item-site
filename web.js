@@ -206,22 +206,31 @@ server.post('/ajax_test', function (req, res) {
         accessory: {},
         other: {}
     }
-    
+
+    let i = 0;
+
     //분류 처리
     for (let key_type in isaac_item_object) {
         // console.log("key_type: " + key_type);
-
+        
         for (let key_version in isaac_item_object[key_type]) {
-            
             for(let key_data in isaac_item_object[key_type][key_version]) {
+                
+                if(i == 0) {
+                    console.log(isaac_item_object[key_type].original)
+                    i++;
+                }
+                
+
                 if (req.body.color === "all") {
                     responseColor[key_type][key_data] = isaac_item_object[key_type][key_version][key_data];
                     // responseColor[key_type].length++;
 
                     continue;
                 }
-    
+                
                 if (isaac_item_object[key_type][key_version][key_data].color == req.body.color) {
+                    
                     responseColor[key_type][key_data] = isaac_item_object[key_type][key_version][key_data];
                     // responseColor[key_type].length++;
                 }
@@ -229,10 +238,8 @@ server.post('/ajax_test', function (req, res) {
             
         }
     }
-
+    // console.log(responseColor)
     responseData.isaac_item = responseColor;
-    console.log(responseColor)
-
 
     res.json(responseData);
 }); 
