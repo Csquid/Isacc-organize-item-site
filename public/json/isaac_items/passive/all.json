@@ -504,7 +504,7 @@
         "version": "original"
     },
     "27": {
-        "color": "green",
+        "color": "brown",
         "name": "Wooden Spoon(나무 숟가락)",
         "id": "27",
         "unlock": [
@@ -6336,7 +6336,7 @@
         "version": "afterbirth"
       },
       "404": {
-        "color": "green",
+        "color": "brown",
         "name": "Farting Baby(방귀쟁이 아기)",
         "id": "404",
         "unlock": [
