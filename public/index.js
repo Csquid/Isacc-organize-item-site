@@ -1,5 +1,6 @@
 //(아이템 코드, 룬 추가,  언락)
 let test = 0;
+
 window.onload = function () {
     const top_logo_img = document.querySelector('#top-logo-img');
     const tabNavColors = document.querySelectorAll('.tab-color');
@@ -162,7 +163,7 @@ window.onload = function () {
                 }
 
             }
-        }, 500);
+        }, 1000);
     }
 
     //스크롤 할때 
@@ -179,13 +180,18 @@ window.onload = function () {
     let isaac_item_information_view = document.querySelector('#item-information');
 
     //isaac version setting drop box (아이작 버전 설정 드랍 박스)  
+    //아이작 버전 설정 클릭했을시 이벤트 실행
     isaac_setting_dropbox.addEventListener('click', function(){
         if(isaac_setting_dropbox_content.style.display == 'none') {
+            //만약 보이지 않는 상태라면 block(보이게) 적용
             isaac_setting_dropbox_content.style.display = 'block';
+            //창이 열리기 때문에 넘치는것을 방지하기 위해 아이템 설명창을 줄인데
             isaac_item_information_view.style.maxHeight = "450px"
         }
-        else {
+        else {  
+            //만약 보이는 상태라면 none(사라짐) 적용
             isaac_setting_dropbox_content.style.display = 'none';
+            //창이 닫히기 때문에 아이템 설명창 사이즈를 다시 키운다.
             isaac_item_information_view.style.maxHeight = "600px"
         }
     });
