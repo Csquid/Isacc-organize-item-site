@@ -1,5 +1,15 @@
+const db_mysql = require("./server/database/db_mysql");
+const connect = db_mysql.init();
 const Server = require("./server/modules/HttpServer");
 const server = new Server();
+
+// db_mysql.connect(connect);
+
+// console.log(connect)
+
+connect.query('SHOW TABLES;', function(error, rows, fields) {
+     console.log('data: ', rows);
+})
 
 server.use('/static', server.express.static(__dirname + '/public'));
 
@@ -95,6 +105,28 @@ isaac_item_object.other = {};
 isaac_item_object.other.card = JSON.parse(JSON.stringify(isaac_items_json.other.card));
 
 test_activated_data_object = JSON.parse(JSON.stringify(test_activated_data_json));
+let myData = test_activated_data_object;
+
+console.log(myData[33].place);
+
+for(let key_id in myData) {
+    let place = '';
+
+    for(let i = 0; i < myData[key_id].place.length; i++) {
+        if(myData[key_id].place.length == 1) {
+            place += myData[key_id].place[i];
+            continue;
+        }
+        place += myData[key_id].place[i] + ";"
+    }
+
+    console.log(place);
+
+    connect.query(
+     `INSERT INTO item_activated_passive (item_id, item_name, item_unlock, item_place, item_description, item_version, item_synergistic_effect, item_transformation, item_color, item_cooldown) VALUES("${key_id}", "${myData[key_id].name}", "${myData[key_id].unlock}", "${place}", "${myData[key_id].description}", "${myData[key_id].version}", "", "", "${myData[key_id].color}", "${myData[key_id].cool_down}")`
+    );
+}
+
 
 test2_object = {
     activated: copyObj(skeleton_isaac_version),
@@ -217,7 +249,7 @@ server.post('/ajax_test', function (req, res) {
             for(let key_data in isaac_item_object[key_type][key_version]) {
                 
                 if(i == 0) {
-                    console.log(isaac_item_object[key_type].original)
+                    // console.log(isaac_item_object[key_type].original)
                     i++;
                 }
                 
