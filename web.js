@@ -122,9 +122,11 @@ for(let key_id in myData) {
 
     console.log(place);
 
-    connect.query(
-     `INSERT INTO item_activated_passive (item_id, item_name, item_unlock, item_place, item_description, item_version, item_synergistic_effect, item_transformation, item_color, item_cooldown) VALUES("${key_id}", "${myData[key_id].name}", "${myData[key_id].unlock}", "${place}", "${myData[key_id].description}", "${myData[key_id].version}", "", "", "${myData[key_id].color}", "${myData[key_id].cool_down}")`
-    );
+    // connect.query(
+    //  `INSERT INTO item_activated_passive 
+    //  (item_id, item_name, item_unlock, item_place, item_description, item_version, item_synergistic_effect, item_transformation, item_color, item_cooldown) 
+    //  VALUES("${key_id}", "${myData[key_id].name}", "${myData[key_id].unlock}", "${place}", "${myData[key_id].description}", "${myData[key_id].version}", "", "", "${myData[key_id].color}", "${myData[key_id].cool_down}")`
+    // );
 }
 
 
@@ -217,6 +219,10 @@ server.get('/test', function(req, res) {
 
 server.get('/popup/ttoli', function(req, res) {
     res.sendFile(__dirname + "/public/popup/ttoli.html");
+});
+
+server.get('/popup/notice/site_beta', function(req, res) {
+    res.sendFile(__dirname + "/public/popup/notice/site_beta.html")
 });
 
 server.post('/ajax_test', function (req, res) {
