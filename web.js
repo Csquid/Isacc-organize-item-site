@@ -24,7 +24,7 @@ const path_isaac = {
     }
 }
 
-// deep copy - by.제로초님 코드 (Mr. Zero Cho)
+// deep copy - by. Mr. Zero Cho
 function copyObj(obj) {
     var copy = {};
     if (Array.isArray(obj)) {
@@ -91,7 +91,7 @@ for(let key_type in test_json) {
 }
 
 // console.log(test_json)
-let test_activated_data_json = require(path_isaac.json + path_isaac.item_type.activated + "/all.json")
+let test_activated_data_json = require(path_isaac.json + path_isaac.item_type.other + "/card.json")
 
 
 for(let key_type in isaac_item_object) {
@@ -107,26 +107,26 @@ isaac_item_object.other.card = JSON.parse(JSON.stringify(isaac_items_json.other.
 test_activated_data_object = JSON.parse(JSON.stringify(test_activated_data_json));
 let myData = test_activated_data_object;
 
-console.log(myData[33].place);
-
 for(let key_id in myData) {
     let place = '';
+    let description = '';
 
-    for(let i = 0; i < myData[key_id].place.length; i++) {
-        if(myData[key_id].place.length == 1) {
-            place += myData[key_id].place[i];
+    // for(let i = 0; i < myData[key_id].place.length; i++) {
+    //     if(myData[key_id].place.length == 1) {
+    //         place += myData[key_id].place[i];
+    //         continue;
+    //     }
+    //     place += myData[key_id].place[i] + ";"
+    // }
+
+    for(let i = 0; i < myData[key_id].description.length; i++) {
+        if(myData[key_id].description.length == 1 || i+1 == myData[key_id].description.length) {
+            description += myData[key_id].description[i];
             continue;
         }
-        place += myData[key_id].place[i] + ";"
+
+        description += myData[key_id].description[i] + ";"
     }
-
-    console.log(place);
-
-    // connect.query(
-    //  `INSERT INTO item_activated_passive 
-    //  (item_id, item_name, item_unlock, item_place, item_description, item_version, item_synergistic_effect, item_transformation, item_color, item_cooldown) 
-    //  VALUES("${key_id}", "${myData[key_id].name}", "${myData[key_id].unlock}", "${place}", "${myData[key_id].description}", "${myData[key_id].version}", "", "", "${myData[key_id].color}", "${myData[key_id].cool_down}")`
-    // );
 }
 
 
@@ -229,7 +229,7 @@ server.post('/ajax_test', function (req, res) {
     console.log("req.body.color: " + req.body.color);
     let responseData = { signal: 'ok', color: req.body.color, test: test_activated_data_object, test_2: test2_object};
     
-    //이미지 처리
+    //processing image
     for (let key_type in isaac_item_object) {
         for (let key_version in isaac_item_object[key_type]) {
             for (let key_id in isaac_item_object[key_type][key_version]) {
@@ -237,7 +237,7 @@ server.post('/ajax_test', function (req, res) {
             }
         }
     }
-    
+
     let responseColor = { 
         activated: {},
         passive: {},
