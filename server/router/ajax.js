@@ -19,101 +19,6 @@ const path_isaac = {
     }
 }
 
-// deep copy - by. Mr. Zero Cho
-function copyObj(obj) {
-    var copy = {};
-    if (Array.isArray(obj)) {
-        copy = obj.slice().map((v) => {
-            return copyObj(v);
-        });
-    } else if (typeof obj === 'object' && obj !== null) {
-        for (var attr in obj) {
-            if (obj.hasOwnProperty(attr)) {
-                copy[attr] = copyObj(obj[attr]);
-            }
-        }
-    } else {
-        copy = obj;
-    }
-    return copy;
-}
-
-// const skeleton_isaac_version = {
-//     all: null,
-//     original: null,
-//     expansion_pack: null,
-//     rebirth: null,
-//     afterbirth: null,
-//     afterbirth_plus: null,
-//     booster_pack: null
-// };
-
-// const isaac_items_json = {
-//     activated: copyObj(skeleton_isaac_version),
-//     passive: copyObj(skeleton_isaac_version),
-//     accessory: copyObj(skeleton_isaac_version)
-// };
-
-// const isaac_item_object = {
-//     activated: copyObj(skeleton_isaac_version),
-//     passive: copyObj(skeleton_isaac_version),
-//     accessory: copyObj(skeleton_isaac_version)
-// };
-
-//json 파일들을 끍어 오는 반복문
-// for (let key_type in isaac_items_json) {
-//     for (let key_json in isaac_items_json[key_type]) {
-//         isaac_items_json[key_type][key_json] = require(path_isaac.json + path_isaac.item_type[key_type] + "/" + key_json + ".json");
-//     }
-// }
-
-// isaac_items_json.other = {};
-// isaac_items_json.other.card = require(path_isaac.json + path_isaac.item_type.other + "/card.json")
-
-// test_json = {
-//     activated: null,
-//     passive: null,
-//     accessory: null
-// }
-
-// test_object = {
-//     activated: null,
-//     passive: null,
-//     accessory: null
-// }
-
-// for (let key_type in test_json) {
-//     test_json[key_type] = require(path_isaac.json + path_isaac.item_type[key_type] + "/all.json")
-// }
-
-// // console.log(test_json)
-// let test_activated_data_json = require(path_isaac.json + path_isaac.item_type.activated + "/all.json")
-
-
-// for (let key_type in isaac_item_object) {
-//     for (let key_data in isaac_item_object[key_type]) {
-//         isaac_item_object[key_type][key_data] = JSON.parse(JSON.stringify(isaac_items_json[key_type][key_data]));
-//     }
-// }
-
-
-// isaac_item_object.other = {};
-// isaac_item_object.other.card = JSON.parse(JSON.stringify(isaac_items_json.other.card));
-
-// test_activated_data_object = JSON.parse(JSON.stringify(test_activated_data_json));
-
-// test2_object = {
-//     activated: copyObj(skeleton_isaac_version),
-//     passive: copyObj(skeleton_isaac_version),
-//     accessory: copyObj(skeleton_isaac_version)
-// }
-
-// test_object = {
-//     activated: null,
-//     passive: null,
-//     accessory: null
-// }
-
 server.router.post('/test', function (req, res) {
     let request_version = null;
 
@@ -122,18 +27,13 @@ server.router.post('/test', function (req, res) {
 
     console.log("req.body.color: " + req.body.color);
 
-    // if (req.body.version)
-        // console.log("req.body.version: " + req.body.version);
-
-    let test = {};
-
     let jObj = {
         activated: {},
         accessory: {},
         other: {}
     }
 
-    let responseData = { signal: 'ok', color: req.body.color, /*test: test_activated_data_object test_2: test2_object*/ promise_test: jObj, isaac_item: null };
+    let responseData = { signal: 'ok', color: req.body.color, promise_test: jObj, isaac_item: null };
 
     let test_data_us_1 = 0;
     let test_data_us_2 = 0;
@@ -165,18 +65,18 @@ server.router.post('/test', function (req, res) {
                 if (err) {
                     console.log(err);
                 } else {
+                    //promise 추적
                     test_data_us_2++;
                     console.log("test_data_us_2: " + test_data_us_2)
-                    // console.log(JSON.parse(JSON.stringify(rows)));
+                    
                     for(let i = 0; i < rows.length; i++) {
                         if(jObj[rows[i].item_type] == undefined) {
                             jObj[rows[i].item_type] = {};
                         }
                         jObj[rows[i].item_type][rows[i].item_id] = JSON.parse(JSON.stringify(rows[i]));
-                        test[rows[i].item_id] = JSON.parse(JSON.stringify(rows[i]));
                     }
 
-                    resolve(JSON.parse(JSON.stringify(rows)));
+                    resolve();
                 }
     
             });
@@ -185,49 +85,6 @@ server.router.post('/test', function (req, res) {
     }
 
     selectAll();
-
-    //processing image
-    // for (let key_type in isaac_item_object) {
-    //     for (let key_version in isaac_item_object[key_type]) {
-    //         for (let key_id in isaac_item_object[key_type][key_version]) {
-    //             isaac_item_object[key_type][key_version][key_id].img = path_isaac.img + path_isaac.item_type[key_type] + "/" + key_id + ".png";
-    //         }
-    //     }
-    // }
-
-    // let responseColor = {
-    //     activated: {},
-    //     passive: {},
-    //     accessory: {},
-    //     other: {}
-    // }
-
-    // let i = 0;
-
-    //분류 처리
-    // for (let key_type in isaac_item_object) {
-    //     for (let key_version in isaac_item_object[key_type]) {
-    //         for (let key_data in isaac_item_object[key_type][key_version]) {
-
-    //             if (i == 0) {
-    //                 i++;
-    //             }
-
-
-    //             if (req.body.color === "all") {
-    //                 responseColor[key_type][key_data] = isaac_item_object[key_type][key_version][key_data];
-
-    //                 continue;
-    //             }
-
-    //             if (isaac_item_object[key_type][key_version][key_data].color == req.body.color) {
-
-    //                 responseColor[key_type][key_data] = isaac_item_object[key_type][key_version][key_data];
-    //             }
-    //         }
-
-    //     }
-    // }
 
     function setItemImage() {
         test_data_us_1++;
@@ -252,8 +109,6 @@ server.router.post('/test', function (req, res) {
                 await selectDatas(i, data_type);
             }
         }
-
-        console.log("break");
 
         await setItemImage().then(()=> {
             responseData.isaac_item = jObj;
