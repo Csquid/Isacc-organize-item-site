@@ -1,22 +1,26 @@
-  
 class Server {
     constructor(port) {
-        this.port       = port || process.env.port;
-        this.session    = require('express-session');
-        this.express    = require('express');
-        this.bodyParser = require('body-parser');
-        this.http       = require('http');
-        this.app        = this.express();
+		this.port       	= port || process.env.port;
+        this.session    	= require('express-session');
+        this.express    	= require('express');
+        this.bodyParser 	= require('body-parser');
+		this.http       	= require('http');
+		this.path       	= require('path');
+		this.cookieParser	= require('cookie-parser')
+        this.app        	= this.express();
+		this.router			= this.express.Router();
         this.app.set   ('view engine', 'ejs');
         this.app.engine('html', require('ejs').renderFile);
-        // this.app.use('/static', this.express.static(__dirname + '/public'));
+        this.app.use('/static', this.express.static(this.path.join(__dirname + '../../../public')));
         this.app.use(this.bodyParser.json());
         this.app.use(this.bodyParser.urlencoded());
         this.app.use(this.session({
             secret: '@#@$MYSIGN#@$#$', resave: false,     saveUninitialized: true
         }));
-        this.server = this.http.createServer(this.app);
-        this.banIp = [];
+		this.server = this.http.createServer(this.app);
+		this.router.use(this.cookieParser())
+		this.banIp = [];
+		// this.http.createServer()
     }
 
     get(dir,func) {
@@ -70,6 +74,10 @@ class Server {
 
 	getServer() {
 		return this.server;
+	}
+	
+	getPath() {
+		return this.path;
 	}
 
 	setPort(p) {
