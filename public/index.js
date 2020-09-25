@@ -56,7 +56,7 @@ window.onload = function () {
     }
 
     //처음 페이지 들어갈때 보여줄 데이터
-    sendAjax("ajax_test", "all");
+    sendAjax("/ajax/test", "all", ['original']);
 
     item_content_colors_all = document.querySelectorAll(".item-content .all");
     item_content_colors_all.forEach(element => { element.style.display = "block"; });
@@ -96,10 +96,11 @@ window.onload = function () {
                         let createDescriptionBox = document.createElement('div');
                         
                         let clicked_item_data = {
-                            id: resultData.isaac_item[type][id].id,
-                            img: resultData.isaac_item[type][id].img,
-                            name: resultData.isaac_item[type][id].name,
-                            description: resultData.isaac_item[type][id].description
+                            id:          resultData.isaac_item[type][id].item_id,
+                            img:         resultData.isaac_item[type][id].item_img,
+                            name:        resultData.isaac_item[type][id].item_name,
+                            cooldown:    resultData.isaac_item[type][id].item_cooldown,
+                            description: resultData.isaac_item[type][id].item_description
                         }
 
                         // 데이터 아이디
@@ -120,14 +121,16 @@ window.onload = function () {
                         //만약 액티브 일때
                         if(type == "activated") {
                             // 쿨다운
-                            clicked_item_data.cooldown = resultData.isaac_item[type][id].cool_down;
+                            clicked_item_data.cooldown = clicked_item_data.cooldown
                             createCoolDown.textContent = "쿨 타임: " + clicked_item_data.cooldown;
                         }
                         
                         // 설명 엘리먼트 넣을 박스
                         createDescriptionBox.className = "item-description";
 
+                        clicked_item_data.description = clicked_item_data.description.split(";");
                         // 설명 부분들을 for문 돌면서 배열에서 끄집어냄
+                        
                         for(let i = 0; i < clicked_item_data.description.length; i++) {
                             let createDescription = document.createElement('p');
 
@@ -199,6 +202,8 @@ window.onload = function () {
     //body content 안에 있는 tab의 버튼들을 클릭했을때 처리
     tabNavColors.forEach(function (item, index) {
         item.addEventListener("click", function (event) {
+            let want_version = [];
+            let data_set_checkbox_version = null;
             const id_color = event.target.getAttribute('id').replace("tab-nav-", "");
 
             data_processing();
@@ -212,8 +217,16 @@ window.onload = function () {
                 }
             });
 
+            data_set_checkbox_version = document.querySelectorAll("[data-checkbox-version]");
 
-            sendAjax("/ajax_test", id_color);
+            for(let i = 0; i < data_set_checkbox_version.length; i++) {
+                if(data_set_checkbox_version[i].checked) {
+                    want_version.push(data_set_checkbox_version[i].dataset.checkboxVersion)
+                }
+            }
+            console.log(want_version);
+
+            sendAjax("/ajax/test", id_color, want_version);
 
             let item_content_colors = document.querySelectorAll(".item-content ." + id_color);
 
@@ -222,8 +235,8 @@ window.onload = function () {
         });
     });
 
-    function sendAjax(url, data) {
-        let sendData = { color: data };
+    function sendAjax(url, data, want_version) {
+        let sendData = { color: data, version: want_version };
         sendData = JSON.stringify(sendData);
 
         var xhr = new XMLHttpRequest();
@@ -256,22 +269,15 @@ window.onload = function () {
 
             for (let key_type in result.isaac_item) {
                 for (let key_data in result.isaac_item[key_type]) {
+
+                    // console.log(result.isaac_item[key_type]);
+
                     let createImg = document.createElement('img');
 
                     // console.log(result.isaac_item[key_type][key_data]);
-                    createImg.setAttribute("src", result.isaac_item[key_type][key_data].img);
+                    createImg.setAttribute("src", result.isaac_item[key_type][key_data].item_img);
 
-                    createImg.dataset.id = result.isaac_item[key_type][key_data].id;
-
-                    if (((result.isaac_item[key_type][key_data].id <= 198 || result.isaac_item[key_type][key_data].id >= 475) && (key_type == "activated")) ||
-                        (result.isaac_item[key_type][key_data].id <= 198 && key_type == "passive") ||
-                        (result.isaac_item[key_type][key_data].id >= 29 && key_type == "accessory")) {
-                        createImg.setAttribute("class", "item-img large");
-                    } else {
-                        createImg.setAttribute("class", "item-img");
-                    }
-
-
+                    createImg.dataset.id = result.isaac_item[key_type][key_data].item_id;
 
                     tabColorElement[key_type].appendChild(createImg);
                 }
