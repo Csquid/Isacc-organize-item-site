@@ -11,6 +11,8 @@ server.router.get('/', function(req, res) {
 })
 
 server.router.use('/ajax', nAjax);
+
+// cookie example [쿠키 예제]
 server.router.get('/count', function(req, res) {
     console.log(req.cookies.count)
 
